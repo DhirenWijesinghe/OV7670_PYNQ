@@ -63,7 +63,7 @@ base_m09_regslice_8_sc::base_m09_regslice_8_sc(const sc_core::sc_module_name& nm
     xsc::common_cpp::properties model_param_props;
     model_param_props.addLong("C_AXI_PROTOCOL", "2");
     model_param_props.addLong("C_AXI_ID_WIDTH", "1");
-    model_param_props.addLong("C_AXI_ADDR_WIDTH", "9");
+    model_param_props.addLong("C_AXI_ADDR_WIDTH", "7");
     model_param_props.addLong("C_AXI_DATA_WIDTH", "32");
     model_param_props.addLong("C_AXI_SUPPORTS_USER_SIGNALS", "0");
     model_param_props.addLong("C_AXI_AWUSER_WIDTH", "1");

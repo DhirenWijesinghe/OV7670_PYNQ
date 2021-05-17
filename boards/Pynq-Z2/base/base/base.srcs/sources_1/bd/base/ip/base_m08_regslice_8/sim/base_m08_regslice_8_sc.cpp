@@ -61,9 +61,9 @@ base_m08_regslice_8_sc::base_m08_regslice_8_sc(const sc_core::sc_module_name& nm
 
   // initialize module
     xsc::common_cpp::properties model_param_props;
-    model_param_props.addLong("C_AXI_PROTOCOL", "2");
-    model_param_props.addLong("C_AXI_ID_WIDTH", "1");
-    model_param_props.addLong("C_AXI_ADDR_WIDTH", "9");
+    model_param_props.addLong("C_AXI_PROTOCOL", "0");
+    model_param_props.addLong("C_AXI_ID_WIDTH", "12");
+    model_param_props.addLong("C_AXI_ADDR_WIDTH", "13");
     model_param_props.addLong("C_AXI_DATA_WIDTH", "32");
     model_param_props.addLong("C_AXI_SUPPORTS_USER_SIGNALS", "0");
     model_param_props.addLong("C_AXI_AWUSER_WIDTH", "1");
@@ -72,10 +72,10 @@ base_m08_regslice_8_sc::base_m08_regslice_8_sc(const sc_core::sc_module_name& nm
     model_param_props.addLong("C_AXI_RUSER_WIDTH", "1");
     model_param_props.addLong("C_AXI_BUSER_WIDTH", "1");
     model_param_props.addLong("C_REG_CONFIG_AW", "7");
-    model_param_props.addLong("C_REG_CONFIG_W", "7");
+    model_param_props.addLong("C_REG_CONFIG_W", "1");
     model_param_props.addLong("C_REG_CONFIG_B", "7");
     model_param_props.addLong("C_REG_CONFIG_AR", "7");
-    model_param_props.addLong("C_REG_CONFIG_R", "7");
+    model_param_props.addLong("C_REG_CONFIG_R", "1");
     model_param_props.addLong("C_RESERVE_MODE", "0");
     model_param_props.addLong("C_NUM_SLR_CROSSINGS", "0");
     model_param_props.addLong("C_PIPELINES_MASTER_AW", "0");

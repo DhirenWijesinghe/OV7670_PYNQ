@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="base_xbar_6_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_xbar_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_camera_capture_0_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_camera_capture_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_axi_bram_ctrl_0_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_axi_bram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_blk_mem_gen_0_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_pc_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_us_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_us_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_pc_1_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m10_regslice_6_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m10_regslice_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m02_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m05_regslice_19_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m05_regslice_19_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m04_regslice_19_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m04_regslice_19_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m09_regslice_10_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m09_regslice_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m06_regslice_19_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m06_regslice_19_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m07_regslice_19_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m07_regslice_19_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m12_regslice_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m12_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m13_regslice_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m13_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m11_regslice_6_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m11_regslice_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m01_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m00_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m08_regslice_10_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m08_regslice_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m03_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m06_regslice_20_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m06_regslice_20_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m14_regslice_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m14_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m03_regslice_25_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_25_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_25_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_25_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m00_regslice_25_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_25_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m00_regslice_24_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m15_regslice_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m15_regslice_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m01_regslice_24_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m05_regslice_20_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m05_regslice_20_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m07_regslice_20_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m07_regslice_20_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m02_regslice_24_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m02_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m03_regslice_24_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m02_regslice_25_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_25_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m02_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m01_regslice_25_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_25_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_24_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_24_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m04_regslice_20_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m04_regslice_20_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m03_regslice_26_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_26_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m05_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m05_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m02_regslice_26_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_26_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m02_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m01_regslice_26_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_26_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_26_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_26_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m07_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m07_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m08_regslice_11_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m08_regslice_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m08_regslice_10_synth_1"/>
+	</Run>
+	<Run Id="base_m00_regslice_26_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_26_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m04_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m04_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m06_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m06_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_9_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m00_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m10_regslice_7_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m10_regslice_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m11_regslice_7_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m11_regslice_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m09_regslice_11_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m09_regslice_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_auto_us_1_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_us_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_cc_3_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_cc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m08_regslice_12_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m08_regslice_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m07_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m07_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_pc_12_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m09_regslice_12_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m09_regslice_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m06_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m06_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_7_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m08_regslice_9_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m08_regslice_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_pc_11_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_2_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_m05_regslice_18_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m05_regslice_18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m04_regslice_18_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m04_regslice_18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_6_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_m09_regslice_9_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m09_regslice_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m01_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_22_synth_1"/>
+	</Run>
+	<Run Id="base_m00_regslice_27_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_27_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m06_regslice_18_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m06_regslice_18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_22_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_10_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_m07_regslice_18_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m07_regslice_18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m02_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_pc_3_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_5_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_m07_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m07_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_4_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_m03_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_auto_pc_8_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_pc_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_pc_7_synth_1"/>
+	</Run>
+	<Run Id="base_m01_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m02_regslice_22_synth_1"/>
+	</Run>
+	<Run Id="base_m00_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m00_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m02_regslice_22_synth_1"/>
+	</Run>
+	<Run Id="base_m03_regslice_22_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_22_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m02_regslice_22_synth_1"/>
+	</Run>
+	<Run Id="base_m02_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_s00_regslice_27_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_s00_regslice_27_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_s00_regslice_22_synth_1"/>
+	</Run>
+	<Run Id="base_m06_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m06_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_cc_2_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_cc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_cc_1_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_cc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_cc_2_synth_1"/>
+	</Run>
+	<Run Id="base_m01_regslice_27_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m01_regslice_27_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m07_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m04_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m04_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m02_regslice_27_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m02_regslice_27_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m06_regslice_23_synth_1"/>
+	</Run>
+	<Run Id="base_m03_regslice_27_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m03_regslice_27_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_auto_cc_0_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_auto_cc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_auto_cc_3_synth_1"/>
+	</Run>
+	<Run Id="base_m05_regslice_23_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m05_regslice_23_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="base_m04_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m04_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+	</Run>
+	<Run Id="base_m05_regslice_21_synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_m05_regslice_21_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="base_xbar_6_synth_1"/>
+		<Parent Id="base_camera_capture_0_0_synth_1"/>
+		<Parent Id="base_axi_bram_ctrl_0_0_synth_1"/>
+		<Parent Id="base_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="base_auto_pc_0_synth_1"/>
+		<Parent Id="base_auto_us_0_synth_1"/>
+		<Parent Id="base_auto_pc_1_synth_1"/>
+		<Parent Id="base_m10_regslice_6_synth_1"/>
+		<Parent Id="base_m02_regslice_23_synth_1"/>
+		<Parent Id="base_m05_regslice_19_synth_1"/>
+		<Parent Id="base_m04_regslice_19_synth_1"/>
+		<Parent Id="base_m09_regslice_10_synth_1"/>
+		<Parent Id="base_s00_regslice_23_synth_1"/>
+		<Parent Id="base_m06_regslice_19_synth_1"/>
+		<Parent Id="base_m07_regslice_19_synth_1"/>
+		<Parent Id="base_m12_regslice_0_synth_1"/>
+		<Parent Id="base_m13_regslice_0_synth_1"/>
+		<Parent Id="base_m11_regslice_6_synth_1"/>
+		<Parent Id="base_m01_regslice_23_synth_1"/>
+		<Parent Id="base_m00_regslice_23_synth_1"/>
+		<Parent Id="base_m08_regslice_10_synth_1"/>
+		<Parent Id="base_m03_regslice_23_synth_1"/>
+		<Parent Id="base_m06_regslice_20_synth_1"/>
+		<Parent Id="base_m14_regslice_0_synth_1"/>
+		<Parent Id="base_m03_regslice_25_synth_1"/>
+		<Parent Id="base_s00_regslice_25_synth_1"/>
+		<Parent Id="base_m00_regslice_25_synth_1"/>
+		<Parent Id="base_m00_regslice_24_synth_1"/>
+		<Parent Id="base_m15_regslice_0_synth_1"/>
+		<Parent Id="base_m01_regslice_24_synth_1"/>
+		<Parent Id="base_m05_regslice_20_synth_1"/>
+		<Parent Id="base_m07_regslice_20_synth_1"/>
+		<Parent Id="base_m02_regslice_24_synth_1"/>
+		<Parent Id="base_m03_regslice_24_synth_1"/>
+		<Parent Id="base_m02_regslice_25_synth_1"/>
+		<Parent Id="base_m01_regslice_25_synth_1"/>
+		<Parent Id="base_s00_regslice_24_synth_1"/>
+		<Parent Id="base_m04_regslice_20_synth_1"/>
+		<Parent Id="base_m03_regslice_26_synth_1"/>
+		<Parent Id="base_m05_regslice_22_synth_1"/>
+		<Parent Id="base_m02_regslice_26_synth_1"/>
+		<Parent Id="base_m01_regslice_26_synth_1"/>
+		<Parent Id="base_s00_regslice_26_synth_1"/>
+		<Parent Id="base_m07_regslice_22_synth_1"/>
+		<Parent Id="base_m08_regslice_11_synth_1"/>
+		<Parent Id="base_m00_regslice_26_synth_1"/>
+		<Parent Id="base_m04_regslice_22_synth_1"/>
+		<Parent Id="base_m06_regslice_22_synth_1"/>
+		<Parent Id="base_auto_pc_9_synth_1"/>
+		<Parent Id="base_m00_regslice_21_synth_1"/>
+		<Parent Id="base_s00_regslice_21_synth_1"/>
+		<Parent Id="base_m10_regslice_7_synth_1"/>
+		<Parent Id="base_m11_regslice_7_synth_1"/>
+		<Parent Id="base_m09_regslice_11_synth_1"/>
+		<Parent Id="base_auto_us_1_synth_1"/>
+		<Parent Id="base_auto_cc_3_synth_1"/>
+		<Parent Id="base_m08_regslice_12_synth_1"/>
+		<Parent Id="base_m07_regslice_23_synth_1"/>
+		<Parent Id="base_auto_pc_12_synth_1"/>
+		<Parent Id="base_m09_regslice_12_synth_1"/>
+		<Parent Id="base_m06_regslice_21_synth_1"/>
+		<Parent Id="base_auto_pc_7_synth_1"/>
+		<Parent Id="base_m08_regslice_9_synth_1"/>
+		<Parent Id="base_auto_pc_11_synth_1"/>
+		<Parent Id="base_auto_pc_2_synth_1"/>
+		<Parent Id="base_m05_regslice_18_synth_1"/>
+		<Parent Id="base_m04_regslice_18_synth_1"/>
+		<Parent Id="base_auto_pc_6_synth_1"/>
+		<Parent Id="base_m09_regslice_9_synth_1"/>
+		<Parent Id="base_s00_regslice_22_synth_1"/>
+		<Parent Id="base_m01_regslice_21_synth_1"/>
+		<Parent Id="base_m00_regslice_27_synth_1"/>
+		<Parent Id="base_m06_regslice_18_synth_1"/>
+		<Parent Id="base_auto_pc_10_synth_1"/>
+		<Parent Id="base_m07_regslice_18_synth_1"/>
+		<Parent Id="base_m02_regslice_22_synth_1"/>
+		<Parent Id="base_auto_pc_3_synth_1"/>
+		<Parent Id="base_auto_pc_5_synth_1"/>
+		<Parent Id="base_m07_regslice_21_synth_1"/>
+		<Parent Id="base_auto_pc_4_synth_1"/>
+		<Parent Id="base_m03_regslice_21_synth_1"/>
+		<Parent Id="base_auto_pc_8_synth_1"/>
+		<Parent Id="base_m01_regslice_22_synth_1"/>
+		<Parent Id="base_m00_regslice_22_synth_1"/>
+		<Parent Id="base_m03_regslice_22_synth_1"/>
+		<Parent Id="base_m02_regslice_21_synth_1"/>
+		<Parent Id="base_s00_regslice_27_synth_1"/>
+		<Parent Id="base_m06_regslice_23_synth_1"/>
+		<Parent Id="base_auto_cc_2_synth_1"/>
+		<Parent Id="base_auto_cc_1_synth_1"/>
+		<Parent Id="base_m01_regslice_27_synth_1"/>
+		<Parent Id="base_m04_regslice_23_synth_1"/>
+		<Parent Id="base_m02_regslice_27_synth_1"/>
+		<Parent Id="base_m03_regslice_27_synth_1"/>
+		<Parent Id="base_auto_cc_0_synth_1"/>
+		<Parent Id="base_m05_regslice_23_synth_1"/>
+		<Parent Id="base_m04_regslice_21_synth_1"/>
+		<Parent Id="base_m05_regslice_21_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

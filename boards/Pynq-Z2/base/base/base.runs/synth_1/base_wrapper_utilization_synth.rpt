@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Fri May 14 22:16:55 2021
-| Host         : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Mon May 17 05:57:35 2021
+| Host         : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file base_wrapper_utilization_synth.rpt -pb base_wrapper_utilization_synth.pb
 | Design       : base_wrapper
 | Device       : 7z020clg400-1
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |  105 |     0 |       125 | 84.00 |
+| Bonded IOB                  |   69 |     0 |       125 | 55.20 |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |       130 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         4 |  0.00 |
@@ -146,9 +146,9 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| IBUF     |   86 |                  IO |
-| OBUFT    |   65 |                  IO |
+| IBUF     |   50 |                  IO |
 | OBUF     |   19 |                  IO |
+| OBUFT    |   18 |                  IO |
 +----------+------+---------------------+
 
 
@@ -237,12 +237,14 @@ Table of Contents
 | base_m11_regslice_4            |    1 |
 | base_m10_regslice_5            |    1 |
 | base_m10_regslice_4            |    1 |
+| base_m09_regslice_9            |    1 |
 | base_m09_regslice_8            |    1 |
-| base_m09_regslice_7            |    1 |
-| base_m09_regslice_6            |    1 |
+| base_m09_regslice_11           |    1 |
+| base_m09_regslice_10           |    1 |
+| base_m08_regslice_9            |    1 |
 | base_m08_regslice_8            |    1 |
-| base_m08_regslice_7            |    1 |
-| base_m08_regslice_6            |    1 |
+| base_m08_regslice_11           |    1 |
+| base_m08_regslice_10           |    1 |
 | base_m07_regslice_17           |    1 |
 | base_m07_regslice_16           |    1 |
 | base_m07_regslice_15           |    1 |
@@ -347,7 +349,9 @@ Table of Contents
 | base_collector_pmoda_rpi_0     |    1 |
 | base_clk_wiz_10MHz_0           |    1 |
 | base_clk_wiz_0_0               |    1 |
+| base_camera_capture_0_0        |    1 |
 | base_btns_gpio_0               |    1 |
+| base_blk_mem_gen_0_0           |    1 |
 | base_axis_register_slice_0_1   |    1 |
 | base_axis_register_slice_0_0   |    1 |
 | base_axis_data_fifo_0_1        |    1 |
@@ -358,6 +362,7 @@ Table of Contents
 | base_axi_dynclk_0              |    1 |
 | base_axi_dma_0_1               |    1 |
 | base_axi_dma_0_0               |    1 |
+| base_axi_bram_ctrl_0_0         |    1 |
 | base_auto_us_1                 |    1 |
 | base_auto_us_0                 |    1 |
 | base_auto_pc_9                 |    1 |
@@ -368,6 +373,7 @@ Table of Contents
 | base_auto_pc_4                 |    1 |
 | base_auto_pc_3                 |    1 |
 | base_auto_pc_2                 |    1 |
+| base_auto_pc_12                |    1 |
 | base_auto_pc_11                |    1 |
 | base_auto_pc_10                |    1 |
 | base_auto_pc_1                 |    1 |

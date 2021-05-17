@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2020.1 (64-bit)
-# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu May 13 16:25:17 2021
-# Process ID: 15884
-# Current directory: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mb_bram_ctrl_0_synth_1
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun May 16 23:29:44 2021
+# Process ID: 38776
+# Current directory: C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mb_bram_ctrl_0_synth_1
 # Command line: vivado.exe -log base_mb_bram_ctrl_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_mb_bram_ctrl_0.tcl
-# Log file: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mb_bram_ctrl_0_synth_1/base_mb_bram_ctrl_0.vds
-# Journal file: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mb_bram_ctrl_0_synth_1\vivado.jou
+# Log file: C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mb_bram_ctrl_0_synth_1/base_mb_bram_ctrl_0.vds
+# Journal file: C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mb_bram_ctrl_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source base_mb_bram_ctrl_0.tcl -notrace

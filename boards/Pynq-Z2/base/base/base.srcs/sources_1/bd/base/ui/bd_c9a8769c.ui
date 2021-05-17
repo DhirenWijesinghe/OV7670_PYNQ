@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.659955",
+   "Default View_TopLeft":"-377,-11",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port pmoda_gpio_7_0 -pg 1 -lvl 0 -x 0 -y 50 -defaultsOSRD
+preplace port pmoda_rpi_gpio -pg 1 -lvl 4 -x 860 -y 260 -defaultsOSRD
+preplace port rpi_gpio -pg 1 -lvl 4 -x 860 -y 570 -defaultsOSRD
+preplace port rpi_gpio_27_0 -pg 1 -lvl 0 -x 0 -y 690 -defaultsOSRD
+preplace portBus rpi_gpio_i -pg 1 -lvl 4 -x 860 -y 410 -defaultsOSRD
+preplace portBus rpi_gpio_t -pg 1 -lvl 4 -x 860 -y 710 -defaultsOSRD
+preplace portBus sel -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace inst pmoda_rpi_o_sel -pg 1 -lvl 2 -x 430 -y 260 -defaultsOSRD
+preplace inst pmoda_rpi_t_sel -pg 1 -lvl 2 -x 430 -y 90 -defaultsOSRD
+preplace inst rpi_i_27_0 -pg 1 -lvl 2 -x 430 -y 410 -defaultsOSRD
+preplace inst rpi_i_reorder_7_0 -pg 1 -lvl 1 -x 170 -y 400 -defaultsOSRD
+preplace inst rpi_o_27_8 -pg 1 -lvl 1 -x 170 -y 490 -defaultsOSRD
+preplace inst rpi_o_reorder_7_0 -pg 1 -lvl 1 -x 170 -y 260 -defaultsOSRD
+preplace inst rpi_t_27_8 -pg 1 -lvl 1 -x 170 -y 590 -defaultsOSRD
+preplace inst rpi_t_reorder_7_0 -pg 1 -lvl 1 -x 170 -y 170 -defaultsOSRD
+preplace inst collector_pmoda_rpi -pg 1 -lvl 3 -x 690 -y 270 -defaultsOSRD
+preplace inst collector_rpi_27_8 -pg 1 -lvl 3 -x 690 -y 580 -defaultsOSRD
+preplace inst distributor_pmoda -pg 1 -lvl 1 -x 170 -y 60 -defaultsOSRD
+preplace inst distributor_rpi -pg 1 -lvl 3 -x 690 -y 700 -defaultsOSRD
+preplace netloc collector_pmoda_rpi_wire_i_i 1 0 4 20 340 NJ 340 NJ 340 820
+preplace netloc collector_rpi_27_8_wire_i_i 1 1 3 300 480 NJ 480 820
+preplace netloc distributor_pmoda_wire_o_o 1 1 1 300 50n
+preplace netloc distributor_pmoda_wire_o_t 1 1 1 N 70
+preplace netloc pmoda_rp_pin_sel_Dout 1 0 2 NJ 310 310
+preplace netloc pmoda_rpi_o_sel_y 1 2 1 N 260
+preplace netloc pmoda_rpi_t_sel_y 1 2 1 540 90n
+preplace netloc rpi_i_27_0_dout 1 2 2 540 410 NJ
+preplace netloc rpi_i_reorder_7_0_dout 1 1 1 NJ 400
+preplace netloc rpi_o_27_8_Dout 1 1 2 NJ 490 530J
+preplace netloc rpi_o_reorder_dout 1 1 1 NJ 260
+preplace netloc rpi_t_27_8_Dout1 1 1 2 NJ 590 NJ
+preplace netloc rpi_t_reorder_dout 1 1 1 290J 90n
+preplace netloc wire_distributor_rpi_wire_o_o 1 0 4 40 780 NJ 780 NJ 780 820
+preplace netloc wire_distributor_rpi_wire_o_t 1 0 4 30 680 NJ 680 530J 770 830
+preplace netloc collector_pmoda_rpi_gpio_output 1 3 1 NJ 260
+preplace netloc distributor_rpi_27_8_gpio_output 1 3 1 NJ 570
+preplace netloc iop_pmoda_io 1 0 1 NJ 50
+preplace netloc iop_rpi_io 1 0 3 NJ 690 NJ 690 NJ
+levelinfo -pg 1 0 170 430 690 860
+pagesize -pg 1 -db -bbox -sgen -160 -10 1020 790
+"
+}
+

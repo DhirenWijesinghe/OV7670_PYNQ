@@ -61,7 +61,7 @@ base_auto_pc_9_sc::base_auto_pc_9_sc(const sc_core::sc_module_name& nm) : sc_cor
 
   // initialize module
     xsc::common_cpp::properties model_param_props;
-    model_param_props.addLong("C_M_AXI_PROTOCOL", "2");
+    model_param_props.addLong("C_M_AXI_PROTOCOL", "0");
     model_param_props.addLong("C_S_AXI_PROTOCOL", "1");
     model_param_props.addLong("C_IGNORE_ID", "0");
     model_param_props.addLong("C_AXI_ID_WIDTH", "12");

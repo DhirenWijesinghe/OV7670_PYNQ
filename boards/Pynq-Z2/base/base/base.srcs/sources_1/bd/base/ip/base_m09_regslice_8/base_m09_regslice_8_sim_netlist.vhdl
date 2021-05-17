@@ -1,11 +1,11 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Thu May 13 14:59:01 2021
--- Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+-- Date        : Sun May 16 22:12:30 2021
+-- Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim -rename_top base_m09_regslice_8 -prefix
---               base_m09_regslice_8_ base_m04_regslice_17_sim_netlist.vhdl
--- Design      : base_m04_regslice_17
+--               base_m09_regslice_8_ base_m06_regslice_19_sim_netlist.vhdl
+-- Design      : base_m06_regslice_19
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z020clg400-1
@@ -18,62 +18,46 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice is
   port (
     m_axi_arvalid : out STD_LOGIC;
     s_axi_arready : out STD_LOGIC;
-    Q : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    Q : out STD_LOGIC_VECTOR ( 9 downto 0 );
     p_0_in : in STD_LOGIC;
     aclk : in STD_LOGIC;
     p_1_in : in STD_LOGIC;
     s_axi_arvalid : in STD_LOGIC;
     m_axi_arready : in STD_LOGIC;
     s_ready_i_reg_0 : in STD_LOGIC;
-    D : in STD_LOGIC_VECTOR ( 11 downto 0 )
+    D : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
 end base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice;
 
 architecture STRUCTURE of base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice is
   signal \^m_axi_arvalid\ : STD_LOGIC;
-  signal \m_payload_i[8]_i_1__0_n_0\ : STD_LOGIC;
+  signal \m_payload_i[6]_i_1__0_n_0\ : STD_LOGIC;
   signal \m_valid_i_i_1__1_n_0\ : STD_LOGIC;
   signal \^s_axi_arready\ : STD_LOGIC;
   signal \s_ready_i_i_1__2_n_0\ : STD_LOGIC;
 begin
   m_axi_arvalid <= \^m_axi_arvalid\;
   s_axi_arready <= \^s_axi_arready\;
-\m_payload_i[8]_i_1__0\: unisim.vcomponents.LUT1
+\m_payload_i[6]_i_1__0\: unisim.vcomponents.LUT1
     generic map(
       INIT => X"1"
     )
         port map (
       I0 => \^m_axi_arvalid\,
-      O => \m_payload_i[8]_i_1__0_n_0\
+      O => \m_payload_i[6]_i_1__0_n_0\
     );
 \m_payload_i_reg[0]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(0),
       Q => Q(0),
-      R => '0'
-    );
-\m_payload_i_reg[10]\: unisim.vcomponents.FDRE
-     port map (
-      C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
-      D => D(10),
-      Q => Q(10),
-      R => '0'
-    );
-\m_payload_i_reg[11]\: unisim.vcomponents.FDRE
-     port map (
-      C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
-      D => D(11),
-      Q => Q(11),
       R => '0'
     );
 \m_payload_i_reg[1]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(1),
       Q => Q(1),
       R => '0'
@@ -81,7 +65,7 @@ begin
 \m_payload_i_reg[2]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(2),
       Q => Q(2),
       R => '0'
@@ -89,7 +73,7 @@ begin
 \m_payload_i_reg[3]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(3),
       Q => Q(3),
       R => '0'
@@ -97,7 +81,7 @@ begin
 \m_payload_i_reg[4]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(4),
       Q => Q(4),
       R => '0'
@@ -105,7 +89,7 @@ begin
 \m_payload_i_reg[5]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(5),
       Q => Q(5),
       R => '0'
@@ -113,7 +97,7 @@ begin
 \m_payload_i_reg[6]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(6),
       Q => Q(6),
       R => '0'
@@ -121,7 +105,7 @@ begin
 \m_payload_i_reg[7]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(7),
       Q => Q(7),
       R => '0'
@@ -129,7 +113,7 @@ begin
 \m_payload_i_reg[8]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(8),
       Q => Q(8),
       R => '0'
@@ -137,7 +121,7 @@ begin
 \m_payload_i_reg[9]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1__0_n_0\,
+      CE => \m_payload_i[6]_i_1__0_n_0\,
       D => D(9),
       Q => Q(9),
       R => '0'
@@ -196,14 +180,14 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice_0 is
     s_axi_awready : out STD_LOGIC;
     p_1_in : out STD_LOGIC;
     \aresetn_d_reg[0]_0\ : out STD_LOGIC;
-    Q : out STD_LOGIC_VECTOR ( 11 downto 0 );
+    Q : out STD_LOGIC_VECTOR ( 9 downto 0 );
     p_0_in : in STD_LOGIC;
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
     s_axi_awvalid : in STD_LOGIC;
     m_axi_awready : in STD_LOGIC;
     s_ready_i_reg_0 : in STD_LOGIC;
-    D : in STD_LOGIC_VECTOR ( 11 downto 0 )
+    D : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice_0 : entity is "axi_register_slice_v2_1_21_axic_register_slice";
@@ -212,7 +196,7 @@ end base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice_0;
 architecture STRUCTURE of base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice_0 is
   signal \aresetn_d_reg_n_0_[0]\ : STD_LOGIC;
   signal \^m_axi_awvalid\ : STD_LOGIC;
-  signal \m_payload_i[8]_i_1_n_0\ : STD_LOGIC;
+  signal \m_payload_i[6]_i_1_n_0\ : STD_LOGIC;
   signal m_valid_i_i_1_n_0 : STD_LOGIC;
   signal \^p_1_in\ : STD_LOGIC;
   signal \^s_axi_awready\ : STD_LOGIC;
@@ -241,42 +225,26 @@ begin
       Q => \aresetn_d_reg_n_0_[0]\,
       R => '0'
     );
-\m_payload_i[8]_i_1\: unisim.vcomponents.LUT1
+\m_payload_i[6]_i_1\: unisim.vcomponents.LUT1
     generic map(
       INIT => X"1"
     )
         port map (
       I0 => \^m_axi_awvalid\,
-      O => \m_payload_i[8]_i_1_n_0\
+      O => \m_payload_i[6]_i_1_n_0\
     );
 \m_payload_i_reg[0]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(0),
       Q => Q(0),
-      R => '0'
-    );
-\m_payload_i_reg[10]\: unisim.vcomponents.FDRE
-     port map (
-      C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
-      D => D(10),
-      Q => Q(10),
-      R => '0'
-    );
-\m_payload_i_reg[11]\: unisim.vcomponents.FDRE
-     port map (
-      C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
-      D => D(11),
-      Q => Q(11),
       R => '0'
     );
 \m_payload_i_reg[1]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(1),
       Q => Q(1),
       R => '0'
@@ -284,7 +252,7 @@ begin
 \m_payload_i_reg[2]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(2),
       Q => Q(2),
       R => '0'
@@ -292,7 +260,7 @@ begin
 \m_payload_i_reg[3]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(3),
       Q => Q(3),
       R => '0'
@@ -300,7 +268,7 @@ begin
 \m_payload_i_reg[4]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(4),
       Q => Q(4),
       R => '0'
@@ -308,7 +276,7 @@ begin
 \m_payload_i_reg[5]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(5),
       Q => Q(5),
       R => '0'
@@ -316,7 +284,7 @@ begin
 \m_payload_i_reg[6]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(6),
       Q => Q(6),
       R => '0'
@@ -324,7 +292,7 @@ begin
 \m_payload_i_reg[7]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(7),
       Q => Q(7),
       R => '0'
@@ -332,7 +300,7 @@ begin
 \m_payload_i_reg[8]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(8),
       Q => Q(8),
       R => '0'
@@ -340,7 +308,7 @@ begin
 \m_payload_i_reg[9]\: unisim.vcomponents.FDRE
      port map (
       C => aclk,
-      CE => \m_payload_i[8]_i_1_n_0\,
+      CE => \m_payload_i[6]_i_1_n_0\,
       D => D(9),
       Q => Q(9),
       R => '0'
@@ -1271,7 +1239,7 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice is
     aclk2x : in STD_LOGIC;
     aresetn : in STD_LOGIC;
     s_axi_awid : in STD_LOGIC_VECTOR ( 0 to 0 );
-    s_axi_awaddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
+    s_axi_awaddr : in STD_LOGIC_VECTOR ( 6 downto 0 );
     s_axi_awlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_awsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_awburst : in STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -1296,7 +1264,7 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice is
     s_axi_bvalid : out STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
     s_axi_arid : in STD_LOGIC_VECTOR ( 0 to 0 );
-    s_axi_araddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
+    s_axi_araddr : in STD_LOGIC_VECTOR ( 6 downto 0 );
     s_axi_arlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_arsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_arburst : in STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -1316,7 +1284,7 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice is
     s_axi_rvalid : out STD_LOGIC;
     s_axi_rready : in STD_LOGIC;
     m_axi_awid : out STD_LOGIC_VECTOR ( 0 to 0 );
-    m_axi_awaddr : out STD_LOGIC_VECTOR ( 8 downto 0 );
+    m_axi_awaddr : out STD_LOGIC_VECTOR ( 6 downto 0 );
     m_axi_awlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
     m_axi_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     m_axi_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -1341,7 +1309,7 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice is
     m_axi_bvalid : in STD_LOGIC;
     m_axi_bready : out STD_LOGIC;
     m_axi_arid : out STD_LOGIC_VECTOR ( 0 to 0 );
-    m_axi_araddr : out STD_LOGIC_VECTOR ( 8 downto 0 );
+    m_axi_araddr : out STD_LOGIC_VECTOR ( 6 downto 0 );
     m_axi_arlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
     m_axi_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     m_axi_arburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -1362,7 +1330,7 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice is
     m_axi_rready : out STD_LOGIC
   );
   attribute C_AXI_ADDR_WIDTH : integer;
-  attribute C_AXI_ADDR_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 9;
+  attribute C_AXI_ADDR_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 7;
   attribute C_AXI_ARUSER_WIDTH : integer;
   attribute C_AXI_ARUSER_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 1;
   attribute C_AXI_AWUSER_WIDTH : integer;
@@ -1434,93 +1402,93 @@ entity base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice is
   attribute G_AXI_ARADDR_INDEX : integer;
   attribute G_AXI_ARADDR_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARADDR_WIDTH : integer;
-  attribute G_AXI_ARADDR_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 9;
+  attribute G_AXI_ARADDR_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 7;
   attribute G_AXI_ARBURST_INDEX : integer;
-  attribute G_AXI_ARBURST_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARBURST_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARBURST_WIDTH : integer;
   attribute G_AXI_ARBURST_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARCACHE_INDEX : integer;
-  attribute G_AXI_ARCACHE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARCACHE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARCACHE_WIDTH : integer;
   attribute G_AXI_ARCACHE_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARID_INDEX : integer;
-  attribute G_AXI_ARID_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARID_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARID_WIDTH : integer;
   attribute G_AXI_ARID_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARLEN_INDEX : integer;
-  attribute G_AXI_ARLEN_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARLEN_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARLEN_WIDTH : integer;
   attribute G_AXI_ARLEN_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARLOCK_INDEX : integer;
-  attribute G_AXI_ARLOCK_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARLOCK_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARLOCK_WIDTH : integer;
   attribute G_AXI_ARLOCK_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARPAYLOAD_WIDTH : integer;
-  attribute G_AXI_ARPAYLOAD_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARPAYLOAD_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARPROT_INDEX : integer;
-  attribute G_AXI_ARPROT_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 9;
+  attribute G_AXI_ARPROT_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 7;
   attribute G_AXI_ARPROT_WIDTH : integer;
   attribute G_AXI_ARPROT_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 3;
   attribute G_AXI_ARQOS_INDEX : integer;
-  attribute G_AXI_ARQOS_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARQOS_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARQOS_WIDTH : integer;
   attribute G_AXI_ARQOS_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARREGION_INDEX : integer;
-  attribute G_AXI_ARREGION_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARREGION_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARREGION_WIDTH : integer;
   attribute G_AXI_ARREGION_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARSIZE_INDEX : integer;
-  attribute G_AXI_ARSIZE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARSIZE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARSIZE_WIDTH : integer;
   attribute G_AXI_ARSIZE_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_ARUSER_INDEX : integer;
-  attribute G_AXI_ARUSER_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_ARUSER_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_ARUSER_WIDTH : integer;
   attribute G_AXI_ARUSER_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWADDR_INDEX : integer;
   attribute G_AXI_AWADDR_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWADDR_WIDTH : integer;
-  attribute G_AXI_AWADDR_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 9;
+  attribute G_AXI_AWADDR_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 7;
   attribute G_AXI_AWBURST_INDEX : integer;
-  attribute G_AXI_AWBURST_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWBURST_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWBURST_WIDTH : integer;
   attribute G_AXI_AWBURST_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWCACHE_INDEX : integer;
-  attribute G_AXI_AWCACHE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWCACHE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWCACHE_WIDTH : integer;
   attribute G_AXI_AWCACHE_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWID_INDEX : integer;
-  attribute G_AXI_AWID_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWID_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWID_WIDTH : integer;
   attribute G_AXI_AWID_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWLEN_INDEX : integer;
-  attribute G_AXI_AWLEN_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWLEN_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWLEN_WIDTH : integer;
   attribute G_AXI_AWLEN_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWLOCK_INDEX : integer;
-  attribute G_AXI_AWLOCK_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWLOCK_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWLOCK_WIDTH : integer;
   attribute G_AXI_AWLOCK_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWPAYLOAD_WIDTH : integer;
-  attribute G_AXI_AWPAYLOAD_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWPAYLOAD_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWPROT_INDEX : integer;
-  attribute G_AXI_AWPROT_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 9;
+  attribute G_AXI_AWPROT_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 7;
   attribute G_AXI_AWPROT_WIDTH : integer;
   attribute G_AXI_AWPROT_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 3;
   attribute G_AXI_AWQOS_INDEX : integer;
-  attribute G_AXI_AWQOS_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWQOS_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWQOS_WIDTH : integer;
   attribute G_AXI_AWQOS_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWREGION_INDEX : integer;
-  attribute G_AXI_AWREGION_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWREGION_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWREGION_WIDTH : integer;
   attribute G_AXI_AWREGION_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWSIZE_INDEX : integer;
-  attribute G_AXI_AWSIZE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWSIZE_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWSIZE_WIDTH : integer;
   attribute G_AXI_AWSIZE_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_AWUSER_INDEX : integer;
-  attribute G_AXI_AWUSER_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 12;
+  attribute G_AXI_AWUSER_INDEX of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 10;
   attribute G_AXI_AWUSER_WIDTH : integer;
   attribute G_AXI_AWUSER_WIDTH of base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute G_AXI_BID_INDEX : integer;
@@ -1669,10 +1637,10 @@ VCC: unisim.vcomponents.VCC
     );
 \ar.ar_pipe\: entity work.base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice
      port map (
-      D(11 downto 9) => s_axi_arprot(2 downto 0),
-      D(8 downto 0) => s_axi_araddr(8 downto 0),
-      Q(11 downto 9) => m_axi_arprot(2 downto 0),
-      Q(8 downto 0) => m_axi_araddr(8 downto 0),
+      D(9 downto 7) => s_axi_arprot(2 downto 0),
+      D(6 downto 0) => s_axi_araddr(6 downto 0),
+      Q(9 downto 7) => m_axi_arprot(2 downto 0),
+      Q(6 downto 0) => m_axi_araddr(6 downto 0),
       aclk => aclk,
       m_axi_arready => m_axi_arready,
       m_axi_arvalid => m_axi_arvalid,
@@ -1684,10 +1652,10 @@ VCC: unisim.vcomponents.VCC
     );
 \aw.aw_pipe\: entity work.base_m09_regslice_8_axi_register_slice_v2_1_21_axic_register_slice_0
      port map (
-      D(11 downto 9) => s_axi_awprot(2 downto 0),
-      D(8 downto 0) => s_axi_awaddr(8 downto 0),
-      Q(11 downto 9) => m_axi_awprot(2 downto 0),
-      Q(8 downto 0) => m_axi_awaddr(8 downto 0),
+      D(9 downto 7) => s_axi_awprot(2 downto 0),
+      D(6 downto 0) => s_axi_awaddr(6 downto 0),
+      Q(9 downto 7) => m_axi_awprot(2 downto 0),
+      Q(6 downto 0) => m_axi_awaddr(6 downto 0),
       aclk => aclk,
       aresetn => aresetn,
       \aresetn_d_reg[0]_0\ => \aw.aw_pipe_n_3\,
@@ -1752,7 +1720,7 @@ entity base_m09_regslice_8 is
   port (
     aclk : in STD_LOGIC;
     aresetn : in STD_LOGIC;
-    s_axi_awaddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
+    s_axi_awaddr : in STD_LOGIC_VECTOR ( 6 downto 0 );
     s_axi_awprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_awvalid : in STD_LOGIC;
     s_axi_awready : out STD_LOGIC;
@@ -1763,7 +1731,7 @@ entity base_m09_regslice_8 is
     s_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_bvalid : out STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
-    s_axi_araddr : in STD_LOGIC_VECTOR ( 8 downto 0 );
+    s_axi_araddr : in STD_LOGIC_VECTOR ( 6 downto 0 );
     s_axi_arprot : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_arvalid : in STD_LOGIC;
     s_axi_arready : out STD_LOGIC;
@@ -1771,7 +1739,7 @@ entity base_m09_regslice_8 is
     s_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rvalid : out STD_LOGIC;
     s_axi_rready : in STD_LOGIC;
-    m_axi_awaddr : out STD_LOGIC_VECTOR ( 8 downto 0 );
+    m_axi_awaddr : out STD_LOGIC_VECTOR ( 6 downto 0 );
     m_axi_awprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
     m_axi_awvalid : out STD_LOGIC;
     m_axi_awready : in STD_LOGIC;
@@ -1782,7 +1750,7 @@ entity base_m09_regslice_8 is
     m_axi_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     m_axi_bvalid : in STD_LOGIC;
     m_axi_bready : out STD_LOGIC;
-    m_axi_araddr : out STD_LOGIC_VECTOR ( 8 downto 0 );
+    m_axi_araddr : out STD_LOGIC_VECTOR ( 6 downto 0 );
     m_axi_arprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
     m_axi_arvalid : out STD_LOGIC;
     m_axi_arready : in STD_LOGIC;
@@ -1794,11 +1762,11 @@ entity base_m09_regslice_8 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of base_m09_regslice_8 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of base_m09_regslice_8 : entity is "base_m04_regslice_17,axi_register_slice_v2_1_21_axi_register_slice,{}";
+  attribute CHECK_LICENSE_TYPE of base_m09_regslice_8 : entity is "base_m06_regslice_19,axi_register_slice_v2_1_21_axi_register_slice,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of base_m09_regslice_8 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of base_m09_regslice_8 : entity is "axi_register_slice_v2_1_21_axi_register_slice,Vivado 2020.1";
+  attribute X_CORE_INFO of base_m09_regslice_8 : entity is "axi_register_slice_v2_1_21_axi_register_slice,Vivado 2020.1.1";
 end base_m09_regslice_8;
 
 architecture STRUCTURE of base_m09_regslice_8 is
@@ -1829,7 +1797,7 @@ architecture STRUCTURE of base_m09_regslice_8 is
   signal NLW_inst_s_axi_rid_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_inst_s_axi_ruser_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   attribute C_AXI_ADDR_WIDTH : integer;
-  attribute C_AXI_ADDR_WIDTH of inst : label is 9;
+  attribute C_AXI_ADDR_WIDTH of inst : label is 7;
   attribute C_AXI_ARUSER_WIDTH : integer;
   attribute C_AXI_ARUSER_WIDTH of inst : label is 1;
   attribute C_AXI_AWUSER_WIDTH : integer;
@@ -1900,93 +1868,93 @@ architecture STRUCTURE of base_m09_regslice_8 is
   attribute G_AXI_ARADDR_INDEX : integer;
   attribute G_AXI_ARADDR_INDEX of inst : label is 0;
   attribute G_AXI_ARADDR_WIDTH : integer;
-  attribute G_AXI_ARADDR_WIDTH of inst : label is 9;
+  attribute G_AXI_ARADDR_WIDTH of inst : label is 7;
   attribute G_AXI_ARBURST_INDEX : integer;
-  attribute G_AXI_ARBURST_INDEX of inst : label is 12;
+  attribute G_AXI_ARBURST_INDEX of inst : label is 10;
   attribute G_AXI_ARBURST_WIDTH : integer;
   attribute G_AXI_ARBURST_WIDTH of inst : label is 0;
   attribute G_AXI_ARCACHE_INDEX : integer;
-  attribute G_AXI_ARCACHE_INDEX of inst : label is 12;
+  attribute G_AXI_ARCACHE_INDEX of inst : label is 10;
   attribute G_AXI_ARCACHE_WIDTH : integer;
   attribute G_AXI_ARCACHE_WIDTH of inst : label is 0;
   attribute G_AXI_ARID_INDEX : integer;
-  attribute G_AXI_ARID_INDEX of inst : label is 12;
+  attribute G_AXI_ARID_INDEX of inst : label is 10;
   attribute G_AXI_ARID_WIDTH : integer;
   attribute G_AXI_ARID_WIDTH of inst : label is 0;
   attribute G_AXI_ARLEN_INDEX : integer;
-  attribute G_AXI_ARLEN_INDEX of inst : label is 12;
+  attribute G_AXI_ARLEN_INDEX of inst : label is 10;
   attribute G_AXI_ARLEN_WIDTH : integer;
   attribute G_AXI_ARLEN_WIDTH of inst : label is 0;
   attribute G_AXI_ARLOCK_INDEX : integer;
-  attribute G_AXI_ARLOCK_INDEX of inst : label is 12;
+  attribute G_AXI_ARLOCK_INDEX of inst : label is 10;
   attribute G_AXI_ARLOCK_WIDTH : integer;
   attribute G_AXI_ARLOCK_WIDTH of inst : label is 0;
   attribute G_AXI_ARPAYLOAD_WIDTH : integer;
-  attribute G_AXI_ARPAYLOAD_WIDTH of inst : label is 12;
+  attribute G_AXI_ARPAYLOAD_WIDTH of inst : label is 10;
   attribute G_AXI_ARPROT_INDEX : integer;
-  attribute G_AXI_ARPROT_INDEX of inst : label is 9;
+  attribute G_AXI_ARPROT_INDEX of inst : label is 7;
   attribute G_AXI_ARPROT_WIDTH : integer;
   attribute G_AXI_ARPROT_WIDTH of inst : label is 3;
   attribute G_AXI_ARQOS_INDEX : integer;
-  attribute G_AXI_ARQOS_INDEX of inst : label is 12;
+  attribute G_AXI_ARQOS_INDEX of inst : label is 10;
   attribute G_AXI_ARQOS_WIDTH : integer;
   attribute G_AXI_ARQOS_WIDTH of inst : label is 0;
   attribute G_AXI_ARREGION_INDEX : integer;
-  attribute G_AXI_ARREGION_INDEX of inst : label is 12;
+  attribute G_AXI_ARREGION_INDEX of inst : label is 10;
   attribute G_AXI_ARREGION_WIDTH : integer;
   attribute G_AXI_ARREGION_WIDTH of inst : label is 0;
   attribute G_AXI_ARSIZE_INDEX : integer;
-  attribute G_AXI_ARSIZE_INDEX of inst : label is 12;
+  attribute G_AXI_ARSIZE_INDEX of inst : label is 10;
   attribute G_AXI_ARSIZE_WIDTH : integer;
   attribute G_AXI_ARSIZE_WIDTH of inst : label is 0;
   attribute G_AXI_ARUSER_INDEX : integer;
-  attribute G_AXI_ARUSER_INDEX of inst : label is 12;
+  attribute G_AXI_ARUSER_INDEX of inst : label is 10;
   attribute G_AXI_ARUSER_WIDTH : integer;
   attribute G_AXI_ARUSER_WIDTH of inst : label is 0;
   attribute G_AXI_AWADDR_INDEX : integer;
   attribute G_AXI_AWADDR_INDEX of inst : label is 0;
   attribute G_AXI_AWADDR_WIDTH : integer;
-  attribute G_AXI_AWADDR_WIDTH of inst : label is 9;
+  attribute G_AXI_AWADDR_WIDTH of inst : label is 7;
   attribute G_AXI_AWBURST_INDEX : integer;
-  attribute G_AXI_AWBURST_INDEX of inst : label is 12;
+  attribute G_AXI_AWBURST_INDEX of inst : label is 10;
   attribute G_AXI_AWBURST_WIDTH : integer;
   attribute G_AXI_AWBURST_WIDTH of inst : label is 0;
   attribute G_AXI_AWCACHE_INDEX : integer;
-  attribute G_AXI_AWCACHE_INDEX of inst : label is 12;
+  attribute G_AXI_AWCACHE_INDEX of inst : label is 10;
   attribute G_AXI_AWCACHE_WIDTH : integer;
   attribute G_AXI_AWCACHE_WIDTH of inst : label is 0;
   attribute G_AXI_AWID_INDEX : integer;
-  attribute G_AXI_AWID_INDEX of inst : label is 12;
+  attribute G_AXI_AWID_INDEX of inst : label is 10;
   attribute G_AXI_AWID_WIDTH : integer;
   attribute G_AXI_AWID_WIDTH of inst : label is 0;
   attribute G_AXI_AWLEN_INDEX : integer;
-  attribute G_AXI_AWLEN_INDEX of inst : label is 12;
+  attribute G_AXI_AWLEN_INDEX of inst : label is 10;
   attribute G_AXI_AWLEN_WIDTH : integer;
   attribute G_AXI_AWLEN_WIDTH of inst : label is 0;
   attribute G_AXI_AWLOCK_INDEX : integer;
-  attribute G_AXI_AWLOCK_INDEX of inst : label is 12;
+  attribute G_AXI_AWLOCK_INDEX of inst : label is 10;
   attribute G_AXI_AWLOCK_WIDTH : integer;
   attribute G_AXI_AWLOCK_WIDTH of inst : label is 0;
   attribute G_AXI_AWPAYLOAD_WIDTH : integer;
-  attribute G_AXI_AWPAYLOAD_WIDTH of inst : label is 12;
+  attribute G_AXI_AWPAYLOAD_WIDTH of inst : label is 10;
   attribute G_AXI_AWPROT_INDEX : integer;
-  attribute G_AXI_AWPROT_INDEX of inst : label is 9;
+  attribute G_AXI_AWPROT_INDEX of inst : label is 7;
   attribute G_AXI_AWPROT_WIDTH : integer;
   attribute G_AXI_AWPROT_WIDTH of inst : label is 3;
   attribute G_AXI_AWQOS_INDEX : integer;
-  attribute G_AXI_AWQOS_INDEX of inst : label is 12;
+  attribute G_AXI_AWQOS_INDEX of inst : label is 10;
   attribute G_AXI_AWQOS_WIDTH : integer;
   attribute G_AXI_AWQOS_WIDTH of inst : label is 0;
   attribute G_AXI_AWREGION_INDEX : integer;
-  attribute G_AXI_AWREGION_INDEX of inst : label is 12;
+  attribute G_AXI_AWREGION_INDEX of inst : label is 10;
   attribute G_AXI_AWREGION_WIDTH : integer;
   attribute G_AXI_AWREGION_WIDTH of inst : label is 0;
   attribute G_AXI_AWSIZE_INDEX : integer;
-  attribute G_AXI_AWSIZE_INDEX of inst : label is 12;
+  attribute G_AXI_AWSIZE_INDEX of inst : label is 10;
   attribute G_AXI_AWSIZE_WIDTH : integer;
   attribute G_AXI_AWSIZE_WIDTH of inst : label is 0;
   attribute G_AXI_AWUSER_INDEX : integer;
-  attribute G_AXI_AWUSER_INDEX of inst : label is 12;
+  attribute G_AXI_AWUSER_INDEX of inst : label is 10;
   attribute G_AXI_AWUSER_WIDTH : integer;
   attribute G_AXI_AWUSER_WIDTH of inst : label is 0;
   attribute G_AXI_BID_INDEX : integer;
@@ -2064,7 +2032,7 @@ architecture STRUCTURE of base_m09_regslice_8 is
   attribute X_INTERFACE_INFO of m_axi_bready : signal is "xilinx.com:interface:aximm:1.0 M_AXI BREADY";
   attribute X_INTERFACE_INFO of m_axi_bvalid : signal is "xilinx.com:interface:aximm:1.0 M_AXI BVALID";
   attribute X_INTERFACE_INFO of m_axi_rready : signal is "xilinx.com:interface:aximm:1.0 M_AXI RREADY";
-  attribute X_INTERFACE_PARAMETER of m_axi_rready : signal is "XIL_INTERFACENAME M_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of m_axi_rready : signal is "XIL_INTERFACENAME M_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 7, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of m_axi_rvalid : signal is "xilinx.com:interface:aximm:1.0 M_AXI RVALID";
   attribute X_INTERFACE_INFO of m_axi_wready : signal is "xilinx.com:interface:aximm:1.0 M_AXI WREADY";
   attribute X_INTERFACE_INFO of m_axi_wvalid : signal is "xilinx.com:interface:aximm:1.0 M_AXI WVALID";
@@ -2075,7 +2043,7 @@ architecture STRUCTURE of base_m09_regslice_8 is
   attribute X_INTERFACE_INFO of s_axi_bready : signal is "xilinx.com:interface:aximm:1.0 S_AXI BREADY";
   attribute X_INTERFACE_INFO of s_axi_bvalid : signal is "xilinx.com:interface:aximm:1.0 S_AXI BVALID";
   attribute X_INTERFACE_INFO of s_axi_rready : signal is "xilinx.com:interface:aximm:1.0 S_AXI RREADY";
-  attribute X_INTERFACE_PARAMETER of s_axi_rready : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of s_axi_rready : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 7, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of s_axi_rvalid : signal is "xilinx.com:interface:aximm:1.0 S_AXI RVALID";
   attribute X_INTERFACE_INFO of s_axi_wready : signal is "xilinx.com:interface:aximm:1.0 S_AXI WREADY";
   attribute X_INTERFACE_INFO of s_axi_wvalid : signal is "xilinx.com:interface:aximm:1.0 S_AXI WVALID";
@@ -2103,7 +2071,7 @@ inst: entity work.base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_sl
       aclk => aclk,
       aclk2x => '0',
       aresetn => aresetn,
-      m_axi_araddr(8 downto 0) => m_axi_araddr(8 downto 0),
+      m_axi_araddr(6 downto 0) => m_axi_araddr(6 downto 0),
       m_axi_arburst(1 downto 0) => NLW_inst_m_axi_arburst_UNCONNECTED(1 downto 0),
       m_axi_arcache(3 downto 0) => NLW_inst_m_axi_arcache_UNCONNECTED(3 downto 0),
       m_axi_arid(0) => NLW_inst_m_axi_arid_UNCONNECTED(0),
@@ -2116,7 +2084,7 @@ inst: entity work.base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_sl
       m_axi_arsize(2 downto 0) => NLW_inst_m_axi_arsize_UNCONNECTED(2 downto 0),
       m_axi_aruser(0) => NLW_inst_m_axi_aruser_UNCONNECTED(0),
       m_axi_arvalid => m_axi_arvalid,
-      m_axi_awaddr(8 downto 0) => m_axi_awaddr(8 downto 0),
+      m_axi_awaddr(6 downto 0) => m_axi_awaddr(6 downto 0),
       m_axi_awburst(1 downto 0) => NLW_inst_m_axi_awburst_UNCONNECTED(1 downto 0),
       m_axi_awcache(3 downto 0) => NLW_inst_m_axi_awcache_UNCONNECTED(3 downto 0),
       m_axi_awid(0) => NLW_inst_m_axi_awid_UNCONNECTED(0),
@@ -2148,7 +2116,7 @@ inst: entity work.base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_sl
       m_axi_wstrb(3 downto 0) => m_axi_wstrb(3 downto 0),
       m_axi_wuser(0) => NLW_inst_m_axi_wuser_UNCONNECTED(0),
       m_axi_wvalid => m_axi_wvalid,
-      s_axi_araddr(8 downto 0) => s_axi_araddr(8 downto 0),
+      s_axi_araddr(6 downto 0) => s_axi_araddr(6 downto 0),
       s_axi_arburst(1 downto 0) => B"01",
       s_axi_arcache(3 downto 0) => B"0000",
       s_axi_arid(0) => '0',
@@ -2161,7 +2129,7 @@ inst: entity work.base_m09_regslice_8_axi_register_slice_v2_1_21_axi_register_sl
       s_axi_arsize(2 downto 0) => B"010",
       s_axi_aruser(0) => '0',
       s_axi_arvalid => s_axi_arvalid,
-      s_axi_awaddr(8 downto 0) => s_axi_awaddr(8 downto 0),
+      s_axi_awaddr(6 downto 0) => s_axi_awaddr(6 downto 0),
       s_axi_awburst(1 downto 0) => B"01",
       s_axi_awcache(3 downto 0) => B"0000",
       s_axi_awid(0) => '0',

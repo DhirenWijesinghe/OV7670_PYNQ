@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Thu May 13 15:00:04 2021
-// Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_auto_us_1/base_auto_us_1_stub.v
+// Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+// Date        : Sun May 16 22:15:05 2021
+// Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub -rename_top base_auto_us_1 -prefix
+//               base_auto_us_1_ base_auto_us_1_stub.v
 // Design      : base_auto_us_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1" *)
+(* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1.1" *)
 module base_auto_us_1(s_axi_aclk, s_axi_aresetn, s_axi_araddr, 
   s_axi_arlen, s_axi_arsize, s_axi_arburst, s_axi_arlock, s_axi_arcache, s_axi_arprot, 
   s_axi_arregion, s_axi_arqos, s_axi_arvalid, s_axi_arready, s_axi_rdata, s_axi_rresp, 

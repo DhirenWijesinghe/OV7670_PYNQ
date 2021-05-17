@@ -1,11 +1,11 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Thu May 13 15:00:01 2021
--- Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+-- Date        : Sun May 16 22:11:34 2021
+-- Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim -rename_top base_m06_regslice_12 -prefix
---               base_m06_regslice_12_ base_s00_regslice_20_sim_netlist.vhdl
--- Design      : base_s00_regslice_20
+--               base_m06_regslice_12_ base_s00_regslice_22_sim_netlist.vhdl
+-- Design      : base_s00_regslice_22
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z020clg400-1
@@ -4723,11 +4723,11 @@ entity base_m06_regslice_12 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of base_m06_regslice_12 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of base_m06_regslice_12 : entity is "base_s00_regslice_20,axi_register_slice_v2_1_21_axi_register_slice,{}";
+  attribute CHECK_LICENSE_TYPE of base_m06_regslice_12 : entity is "base_s00_regslice_22,axi_register_slice_v2_1_21_axi_register_slice,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of base_m06_regslice_12 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of base_m06_regslice_12 : entity is "axi_register_slice_v2_1_21_axi_register_slice,Vivado 2020.1";
+  attribute X_CORE_INFO of base_m06_regslice_12 : entity is "axi_register_slice_v2_1_21_axi_register_slice,Vivado 2020.1.1";
 end base_m06_regslice_12;
 
 architecture STRUCTURE of base_m06_regslice_12 is

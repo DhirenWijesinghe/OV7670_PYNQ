@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Thu May 13 15:48:00 2021
-// Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+// Date        : Mon May 17 01:12:49 2021
+// Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_distributor_pmoda_0/base_distributor_pmoda_0_sim_netlist.v
+//               c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_distributor_pmoda_0/base_distributor_pmoda_0_sim_netlist.v
 // Design      : base_distributor_pmoda_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -13,7 +13,7 @@
 `timescale 1 ps / 1 ps
 
 (* CHECK_LICENSE_TYPE = "base_distributor_pmoda_0,wire_distributor,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
-(* X_CORE_INFO = "wire_distributor,Vivado 2020.1" *) 
+(* X_CORE_INFO = "wire_distributor,Vivado 2020.1.1" *) 
 (* NotValidForBitStream *)
 module base_distributor_pmoda_0
    (gpio_i_i,

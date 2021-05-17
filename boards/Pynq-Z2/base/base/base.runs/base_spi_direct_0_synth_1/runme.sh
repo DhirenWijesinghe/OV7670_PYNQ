@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_spi_direct_0_synth_1'
+HD_PWD='C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_spi_direct_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

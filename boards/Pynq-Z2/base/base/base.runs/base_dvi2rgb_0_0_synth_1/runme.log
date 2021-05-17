@@ -4,18 +4,18 @@
 
 
 
-****** Vivado v2020.1 (64-bit)
-  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+****** Vivado v2020.1.1 (64-bit)
+  **** SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+  **** IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 
 source base_dvi2rgb_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1035.645 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/camera_capture_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/camera_capture_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/camera_capture_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
-WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.cache/ip 
 Command: synth_design -top base_dvi2rgb_0_0 -part xc7z020clg400-1 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -23,15 +23,15 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 21724
+INFO: [Synth 8-7075] Helper process launched with PID 21576
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1035.645 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1056.332 ; gain = 0.000
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:128]
-WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:161]
-WARNING: [Synth 8-1565] actual for formal port potherchrdy is neither a static name nor a globally static expression [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:182]
-WARNING: [Synth 8-1565] actual for formal port potherchvld is neither a static name nor a globally static expression [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:183]
-INFO: [Synth 8-638] synthesizing module 'base_dvi2rgb_0_0' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/synth/base_dvi2rgb_0_0.vhd:80]
+WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:128]
+WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:161]
+WARNING: [Synth 8-1565] actual for formal port potherchrdy is neither a static name nor a globally static expression [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:182]
+WARNING: [Synth 8-1565] actual for formal port potherchvld is neither a static name nor a globally static expression [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'base_dvi2rgb_0_0' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/synth/base_dvi2rgb_0_0.vhd:80]
 	Parameter kEmulateDDC bound to: 1 - type: bool 
 	Parameter kRstActiveHigh bound to: 0 - type: bool 
 	Parameter kClkRange bound to: 1 - type: integer 
@@ -39,8 +39,8 @@ INFO: [Synth 8-638] synthesizing module 'base_dvi2rgb_0_0' [c:/Users/dhire/OneDr
 	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
 	Parameter kAddBUFG bound to: 0 - type: bool 
 	Parameter kEdidFileName bound to: 720p_edid.data - type: string 
-INFO: [Synth 8-3491] module 'dvi2rgb' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:64' bound to instance 'U0' of component 'dvi2rgb' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/synth/base_dvi2rgb_0_0.vhd:149]
-INFO: [Synth 8-638] synthesizing module 'dvi2rgb' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:110]
+INFO: [Synth 8-3491] module 'dvi2rgb' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:64' bound to instance 'U0' of component 'dvi2rgb' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/synth/base_dvi2rgb_0_0.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'dvi2rgb' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:110]
 	Parameter kEmulateDDC bound to: 1 - type: bool 
 	Parameter kRstActiveHigh bound to: 0 - type: bool 
 	Parameter kAddBUFG bound to: 0 - type: bool 
@@ -48,17 +48,17 @@ INFO: [Synth 8-638] synthesizing module 'dvi2rgb' [c:/Users/dhire/OneDrive/Docum
 	Parameter kEdidFileName bound to: 720p_edid.data - type: string 
 	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
 	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'TMDS_Clocking' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Clocking' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:75]
 	Parameter kClkRange bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'ResetBridge' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsyncReset.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsyncReset.vhd:72]
 	Parameter kPolarity bound to: 1'b1 
-INFO: [Synth 8-638] synthesizing module 'SyncAsync' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
 	Parameter kResetTo bound to: 1'b1 
 	Parameter kStages bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (1#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (2#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsyncReset.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (1#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (2#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsyncReset.vhd:72]
 	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
-INFO: [Synth 8-113] binding component instance 'IDelayCtrlX' to cell 'IDELAYCTRL' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:118]
+INFO: [Synth 8-113] binding component instance 'IDelayCtrlX' to cell 'IDELAYCTRL' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:118]
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
 	Parameter DIFF_TERM bound to: 0 - type: bool 
 	Parameter DQS_BIAS bound to: FALSE - type: string 
@@ -66,7 +66,7 @@ INFO: [Synth 8-113] binding component instance 'IDelayCtrlX' to cell 'IDELAYCTRL
 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
 	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
 	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
-INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:132]
+INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:132]
 	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
 	Parameter CLKFBOUT_MULT_F bound to: 5.000000 - type: double 
 	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
@@ -115,23 +115,23 @@ INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c
 	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
 	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
 	Parameter STARTUP_WAIT bound to: 0 - type: bool 
-INFO: [Synth 8-113] binding component instance 'DVI_ClkGenerator' to cell 'MMCME2_ADV' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:173]
-INFO: [Synth 8-113] binding component instance 'SerialClkBuffer' to cell 'BUFIO' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:232]
+INFO: [Synth 8-113] binding component instance 'DVI_ClkGenerator' to cell 'MMCME2_ADV' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:173]
+INFO: [Synth 8-113] binding component instance 'SerialClkBuffer' to cell 'BUFIO' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:232]
 	Parameter BUFR_DIVIDE bound to: 5 - type: string 
 	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
-INFO: [Synth 8-113] binding component instance 'PixelClkBuffer' to cell 'BUFR' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:238]
-INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized0' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
+INFO: [Synth 8-113] binding component instance 'PixelClkBuffer' to cell 'BUFR' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:238]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized0' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
 	Parameter kResetTo bound to: 1'b0 
 	Parameter kStages bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized0' (2#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'TMDS_Clocking' (3#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:75]
-INFO: [Synth 8-638] synthesizing module 'TMDS_Decoder' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Decoder.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized0' (2#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Clocking' (3#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Clocking.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Decoder' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Decoder.vhd:96]
 	Parameter kCtlTknCount bound to: 128 - type: integer 
 	Parameter kTimeoutMs bound to: 50 - type: integer 
 	Parameter kRefClkFrqMHz bound to: 200 - type: integer 
 	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
 	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'InputSERDES' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'InputSERDES' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:85]
 	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
 	Parameter kParallelWidth bound to: 10 - type: integer 
 	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
@@ -141,7 +141,7 @@ INFO: [Synth 8-638] synthesizing module 'InputSERDES' [c:/Users/dhire/OneDrive/D
 	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
 	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
 	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
-INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:92]
+INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:92]
 	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
 	Parameter DELAY_SRC bound to: IDATAIN - type: string 
 	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
@@ -153,7 +153,7 @@ INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c
 	Parameter PIPE_SEL bound to: FALSE - type: string 
 	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
 	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
-INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:102]
+INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:102]
 	Parameter DATA_RATE bound to: DDR - type: string 
 	Parameter DATA_WIDTH bound to: 10 - type: integer 
 	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
@@ -178,7 +178,7 @@ INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [
 	Parameter SRVAL_Q2 bound to: 1'b0 
 	Parameter SRVAL_Q3 bound to: 1'b0 
 	Parameter SRVAL_Q4 bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'DeserializerMaster' to cell 'ISERDESE2' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:130]
+INFO: [Synth 8-113] binding component instance 'DeserializerMaster' to cell 'ISERDESE2' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:130]
 	Parameter DATA_RATE bound to: DDR - type: string 
 	Parameter DATA_WIDTH bound to: 10 - type: integer 
 	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
@@ -203,95 +203,95 @@ INFO: [Synth 8-113] binding component instance 'DeserializerMaster' to cell 'ISE
 	Parameter SRVAL_Q2 bound to: 1'b0 
 	Parameter SRVAL_Q3 bound to: 1'b0 
 	Parameter SRVAL_Q4 bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'DeserializerSlave' to cell 'ISERDESE2' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:172]
-INFO: [Synth 8-256] done synthesizing module 'InputSERDES' (4#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:85]
-INFO: [Synth 8-638] synthesizing module 'SyncBase' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
+INFO: [Synth 8-113] binding component instance 'DeserializerSlave' to cell 'ISERDESE2' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'InputSERDES' (4#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/InputSERDES.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'SyncBase' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
 	Parameter kResetTo bound to: 1'b0 
 	Parameter kStages bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
 	Parameter kResetTo bound to: 1'b0 
 	Parameter kStages bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (4#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'SyncBase' (5#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
-INFO: [Synth 8-638] synthesizing module 'SyncBase__parameterized0' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (4#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'SyncBase' (5#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'SyncBase__parameterized0' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
 	Parameter kResetTo bound to: 1'b1 
 	Parameter kStages bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'SyncBase__parameterized0' (5#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
-INFO: [Synth 8-638] synthesizing module 'PhaseAlign' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/PhaseAlign.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'SyncBase__parameterized0' (5#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/SyncBase.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'PhaseAlign' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/PhaseAlign.vhd:95]
 	Parameter kUseFastAlgorithm bound to: 0 - type: bool 
 	Parameter kCtlTknCount bound to: 128 - type: integer 
 	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
 	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'PhaseAlign' (6#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/PhaseAlign.vhd:95]
-INFO: [Synth 8-638] synthesizing module 'ChannelBond' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/ChannelBond.vhd:74]
-INFO: [Synth 8-256] done synthesizing module 'ChannelBond' (7#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/ChannelBond.vhd:74]
-INFO: [Synth 8-256] done synthesizing module 'TMDS_Decoder' (8#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Decoder.vhd:96]
-INFO: [Synth 8-638] synthesizing module 'EEPROM_8b' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/EEPROM_8b.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'PhaseAlign' (6#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/PhaseAlign.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'ChannelBond' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/ChannelBond.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'ChannelBond' (7#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/ChannelBond.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Decoder' (8#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TMDS_Decoder.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'EEPROM_8b' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/EEPROM_8b.vhd:85]
 	Parameter kSampleClkFreqInMHz bound to: 200 - type: integer 
 	Parameter kSlaveAddress bound to: 7'b1010000 
 	Parameter kAddrBits bound to: 7 - type: integer 
 	Parameter kWritable bound to: 0 - type: bool 
 	Parameter kInitFileName bound to: 720p_edid.data - type: string 
-INFO: [Synth 8-638] synthesizing module 'TWI_SlaveCtl' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TWI_SlaveCtl.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'TWI_SlaveCtl' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TWI_SlaveCtl.vhd:87]
 	Parameter SLAVE_ADDRESS bound to: 8'b10100000 
 	Parameter kSampleClkFreqInMHz bound to: 200 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'GlitchFilter' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/GlitchFilter.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'GlitchFilter' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/GlitchFilter.vhd:69]
 	Parameter kNoOfPeriodsToFilter bound to: 10 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'GlitchFilter' (9#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/GlitchFilter.vhd:69]
-INFO: [Synth 8-256] done synthesizing module 'TWI_SlaveCtl' (10#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TWI_SlaveCtl.vhd:87]
-INFO: [Synth 8-226] default block is never used [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/EEPROM_8b.vhd:201]
-INFO: [Synth 8-256] done synthesizing module 'EEPROM_8b' (11#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/EEPROM_8b.vhd:85]
-INFO: [Synth 8-256] done synthesizing module 'dvi2rgb' (12#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:110]
-INFO: [Synth 8-256] done synthesizing module 'base_dvi2rgb_0_0' (13#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/synth/base_dvi2rgb_0_0.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'GlitchFilter' (9#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/GlitchFilter.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'TWI_SlaveCtl' (10#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/TWI_SlaveCtl.vhd:87]
+INFO: [Synth 8-226] default block is never used [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/EEPROM_8b.vhd:201]
+INFO: [Synth 8-256] done synthesizing module 'EEPROM_8b' (11#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/EEPROM_8b.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'dvi2rgb' (12#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/269e/src/dvi2rgb.vhd:110]
+INFO: [Synth 8-256] done synthesizing module 'base_dvi2rgb_0_0' (13#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/synth/base_dvi2rgb_0_0.vhd:80]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1088.719 ; gain = 53.074
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1056.332 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1088.719 ; gain = 53.074
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1056.332 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1088.719 ; gain = 53.074
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1056.332 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1088.719 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1056.332 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb_ooc.xdc] for cell 'U0'
-Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'U0'
-Parsing XDC File [C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb_ooc.xdc] for cell 'U0'
+Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1195.801 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1080.934 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Timing 38-2] Deriving generated clocks
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.651 . Memory (MB): peak = 1210.816 ; gain = 15.016
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.247 . Memory (MB): peak = 1094.922 ; gain = 13.988
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:44 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:44 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:44 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'pState_reg' in module 'PhaseAlign'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'TWI_SlaveCtl'
@@ -335,7 +335,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'sState_reg' using encoding 'one-hot' in module 'EEPROM_8b'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:46 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -399,7 +399,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:01 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -422,13 +422,13 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:33 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:35 . Memory (MB): peak = 1210.816 ; gain = 175.172
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 1094.922 ; gain = 38.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -450,7 +450,7 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:37 . Memory (MB): peak = 1215.266 ; gain = 179.621
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1099.324 ; gain = 42.992
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -468,37 +468,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:17 ; elapsed = 00:01:56 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:17 ; elapsed = 00:01:56 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:57 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:57 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:57 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:57 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -536,34 +536,34 @@ Report Cell Usage:
 |21    |IBUFDS     |     4|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:57 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1101.570 ; gain = 45.238
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:57 ; elapsed = 00:01:49 . Memory (MB): peak = 1218.277 ; gain = 60.535
-Synthesis Optimization Complete : Time (s): cpu = 00:01:18 ; elapsed = 00:01:57 . Memory (MB): peak = 1218.277 ; gain = 182.633
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:39 . Memory (MB): peak = 1101.570 ; gain = 6.648
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1101.570 ; gain = 45.238
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1226.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1107.570 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1230.332 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.422 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-69 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+71 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:34 ; elapsed = 00:02:25 . Memory (MB): peak = 1230.332 ; gain = 194.688
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1112.422 ; gain = 56.090
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/base_dvi2rgb_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/base_dvi2rgb_0_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP base_dvi2rgb_0_0, cache-ID = 43b2a09029d07aae
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP base_dvi2rgb_0_0, cache-ID = 59990e66d7f154e0
 INFO: [Coretcl 2-1174] Renamed 39 cell refs.
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/base_dvi2rgb_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_dvi2rgb_0_0_synth_1/base_dvi2rgb_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file base_dvi2rgb_0_0_utilization_synth.rpt -pb base_dvi2rgb_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May 13 15:45:06 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun May 16 23:26:52 2021...

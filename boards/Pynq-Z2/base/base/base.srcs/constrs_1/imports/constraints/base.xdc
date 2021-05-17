@@ -37,16 +37,25 @@ set_property -dict { PACKAGE_PIN M15   IOSTANDARD LVCMOS33 } [get_ports { rgbled
 
 ## Pmoda
 ## RPi GPIO 7-0 are shared with pmoda_rpi_gpio_tri_io[7:0]
-set_property -dict {PACKAGE_PIN Y19 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[1]}]
-set_property -dict {PACKAGE_PIN Y18 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[0]}]
+
+#set_property -dict {PACKAGE_PIN Y19 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[1]}]
+#set_property -dict {PACKAGE_PIN Y18 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[0]}]
+set_property -dict {PACKAGE_PIN T14 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[1]}]
+set_property -dict {PACKAGE_PIN U12 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[0]}]
 set_property -dict {PACKAGE_PIN Y17 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[3]}]
 set_property -dict {PACKAGE_PIN Y16 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[2]}]
-set_property -dict {PACKAGE_PIN U19 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[5]}]
-set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[4]}]
+#set_property -dict {PACKAGE_PIN U19 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[5]}]
+#set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[4]}]
+set_property -dict {PACKAGE_PIN U13 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[5]}]
+set_property -dict {PACKAGE_PIN V13 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[4]}]
 set_property -dict {PACKAGE_PIN W19 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[7]}]
 set_property -dict {PACKAGE_PIN W18 IOSTANDARD LVCMOS33} [get_ports {pmoda_rpi_gpio_tri_io[6]}]
+set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[1]}]
+set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[0]}]
 set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[2]}]
 set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[3]}]
+set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[5]}]
+set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[4]}]
 set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[6]}]
 set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[7]}]
 
@@ -54,16 +63,16 @@ set_property PULLUP true [get_ports {pmoda_rpi_gpio_tri_io[7]}]
 set_property -dict {PACKAGE_PIN Y14 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[1]}]
 set_property -dict {PACKAGE_PIN W14 IOSTANDARD LVCMOS33} [get_ports {clk_out1}]
 #set_property -dict {PACKAGE_PIN W14 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[0]}]
-set_property -dict {PACKAGE_PIN T10 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[3]}]
-set_property -dict {PACKAGE_PIN T11 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[2]}]
-set_property -dict {PACKAGE_PIN W16 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[5]}]
-set_property -dict {PACKAGE_PIN V16 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[4]}]
-set_property -dict {PACKAGE_PIN W13 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[7]}]
-set_property -dict {PACKAGE_PIN V12 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[6]}]
-set_property PULLUP true [get_ports {pmodb_gpio_tri_io[2]}]
-set_property PULLUP true [get_ports {pmodb_gpio_tri_io[3]}]
-set_property PULLUP true [get_ports {pmodb_gpio_tri_io[6]}]
-set_property PULLUP true [get_ports {pmodb_gpio_tri_io[7]}]
+#set_property -dict {PACKAGE_PIN T10 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[3]}]
+#set_property -dict {PACKAGE_PIN T11 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[2]}]
+#set_property -dict {PACKAGE_PIN W16 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[5]}]
+#set_property -dict {PACKAGE_PIN V16 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[4]}]
+#set_property -dict {PACKAGE_PIN W13 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[7]}]
+#set_property -dict {PACKAGE_PIN V12 IOSTANDARD LVCMOS33} [get_ports {pmodb_gpio_tri_io[6]}]
+#set_property PULLUP true [get_ports {pmodb_gpio_tri_io[2]}]
+#set_property PULLUP true [get_ports {pmodb_gpio_tri_io[3]}]
+#set_property PULLUP true [get_ports {pmodb_gpio_tri_io[6]}]
+#set_property PULLUP true [get_ports {pmodb_gpio_tri_io[7]}]
 
 ## Arduino GPIO
 set_property -dict {PACKAGE_PIN T14 IOSTANDARD LVCMOS33} [get_ports {arduino_gpio_tri_io[0]}]
@@ -184,23 +193,73 @@ set_property -dict {PACKAGE_PIN R19 IOSTANDARD LVCMOS33} [get_ports {hdmi_out_hp
 ##        38       |      GPIO20     |     RP_IO20_R   |    SPIO1_MOSI
 ##        40       |      GPIO21     |     RP_IO21_R   |    SPIO1_SCLK
 ## RPi GPIO 27-8 are mapped to rpi_gpio_tri_io[19:0]
-set_property -dict { PACKAGE_PIN F19   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[0]  }]; 
-set_property -dict { PACKAGE_PIN V10   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[1]  }]; 
-set_property -dict { PACKAGE_PIN V8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[2] }]; 
-set_property -dict { PACKAGE_PIN W10   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[3] }]; 
-set_property -dict { PACKAGE_PIN B20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[4] }]; 
-set_property -dict { PACKAGE_PIN W8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[5] }]; 
-set_property -dict { PACKAGE_PIN V6    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[6] }]; 
-set_property -dict { PACKAGE_PIN Y6    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[7] }]; 
-set_property -dict { PACKAGE_PIN B19   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[8] }]; 
-set_property -dict { PACKAGE_PIN U7    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[9] }]; 
-set_property -dict { PACKAGE_PIN C20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[10] }]; 
-set_property -dict { PACKAGE_PIN Y8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[11] }]; 
-set_property -dict { PACKAGE_PIN A20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[12] }]; 
+#set_property -dict { PACKAGE_PIN F19   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[0]  }]; 
+#set_property -dict { PACKAGE_PIN V10   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[1]  }]; 
+#set_property -dict { PACKAGE_PIN V8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[2] }]; 
+#set_property -dict { PACKAGE_PIN W10   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[3] }]; 
+#set_property -dict { PACKAGE_PIN B20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[4] }]; 
+#set_property -dict { PACKAGE_PIN W8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[5] }]; 
+#set_property -dict { PACKAGE_PIN V6    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[6] }]; 
+#set_property -dict { PACKAGE_PIN Y6    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[7] }]; 
+#set_property -dict { PACKAGE_PIN B19   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[8] }]; 
+#set_property -dict { PACKAGE_PIN U7    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[9] }]; 
+#set_property -dict { PACKAGE_PIN C20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[10] }]; 
+#set_property -dict { PACKAGE_PIN Y8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[11] }]; 
+#set_property -dict { PACKAGE_PIN A20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[12] }]; 
 set_property -dict { PACKAGE_PIN Y9    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[13] }]; 
-set_property -dict { PACKAGE_PIN U8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[14] }]; 
-set_property -dict { PACKAGE_PIN W6    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[15] }]; 
-set_property -dict { PACKAGE_PIN Y7    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[16] }]; 
-set_property -dict { PACKAGE_PIN F20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[17] }]; 
+#set_property -dict { PACKAGE_PIN U8    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[14] }]; 
+#set_property -dict { PACKAGE_PIN W6    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[15] }]; 
+#set_property -dict { PACKAGE_PIN Y7    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[16] }]; 
+#set_property -dict { PACKAGE_PIN F20   IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[17] }]; 
 set_property -dict { PACKAGE_PIN W9    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[18] }]; 
-set_property -dict { PACKAGE_PIN V7    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[19] }]; 
+#set_property -dict { PACKAGE_PIN V7    IOSTANDARD LVCMOS33 } [get_ports { rpi_gpio_tri_io[19] }]; 
+
+# Camera mappings
+# Camera 0
+# PCLK: RPI 7   = Y18
+# VSYNC: RPI 11 = U7
+# HREF: RPI 13  = V7
+# D7 : RPI 15   = U8
+# D6: RPI 19    = V8
+# D5: RPI 21    = V10
+# D4: RPI 23    = W10
+# D3: RPI 29    = Y19
+# D2: RPI 31    = U18
+# D1: RPI 33    = W8
+# D0: RPI 35    = Y8
+set_property -dict { PACKAGE_PIN Y18 IOSTANDARD LVCMOS33 } [get_ports { pclk0 }];
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets pclk0_IBUF]
+
+set_property -dict { PACKAGE_PIN U7 IOSTANDARD LVCMOS33 } [get_ports { vsync0 }];
+set_property -dict { PACKAGE_PIN V7 IOSTANDARD LVCMOS33 } [get_ports { href0 }];
+set_property -dict { PACKAGE_PIN U8 IOSTANDARD LVCMOS33 } [get_ports { d0[7] }];
+set_property -dict { PACKAGE_PIN V8 IOSTANDARD LVCMOS33 } [get_ports { d0[6] }];
+set_property -dict { PACKAGE_PIN V10 IOSTANDARD LVCMOS33 } [get_ports { d0[5] }];
+set_property -dict { PACKAGE_PIN W10 IOSTANDARD LVCMOS33 } [get_ports { d0[4] }];
+set_property -dict { PACKAGE_PIN Y19 IOSTANDARD LVCMOS33 } [get_ports { d0[3] }];
+set_property -dict { PACKAGE_PIN U18 IOSTANDARD LVCMOS33 } [get_ports { d0[2] }];
+set_property -dict { PACKAGE_PIN W8 IOSTANDARD LVCMOS33 } [get_ports { d0[1] }];
+set_property -dict { PACKAGE_PIN Y8 IOSTANDARD LVCMOS33 } [get_ports { d0[0] }];
+# Camera 1
+# PCLK: RPI 8   = V6
+# VSYNC: RPI 10 = Y6
+# HREF: RPI 12  = C20
+# D7 : RPI 16   = W6
+# D6: RPI 18    = Y7
+# D5: RPI 22    = F20
+# D4: RPI 24    = F19
+# D3: RPI 26    = U19
+# D2: RPI 32    = B20
+# D1: RPI 36    = B19
+# D0: RPI 38    = A20
+set_property -dict { PACKAGE_PIN V6 IOSTANDARD LVCMOS33 } [get_ports { pclk1 }];
+set_property -dict { PACKAGE_PIN Y6 IOSTANDARD LVCMOS33 } [get_ports { vsync1 }];
+set_property -dict { PACKAGE_PIN C20 IOSTANDARD LVCMOS33 } [get_ports { href1 }];
+set_property -dict { PACKAGE_PIN W6 IOSTANDARD LVCMOS33 } [get_ports { d1[7] }];
+set_property -dict { PACKAGE_PIN Y7 IOSTANDARD LVCMOS33 } [get_ports { d1[6] }];
+set_property -dict { PACKAGE_PIN F20 IOSTANDARD LVCMOS33 } [get_ports { d1[5] }];
+set_property -dict { PACKAGE_PIN F19 IOSTANDARD LVCMOS33 } [get_ports { d1[4] }];
+set_property -dict { PACKAGE_PIN U19 IOSTANDARD LVCMOS33 } [get_ports { d1[3] }];
+set_property -dict { PACKAGE_PIN B20 IOSTANDARD LVCMOS33 } [get_ports { d1[2] }];
+set_property -dict { PACKAGE_PIN B19 IOSTANDARD LVCMOS33 } [get_ports { d1[1] }];
+set_property -dict { PACKAGE_PIN A20 IOSTANDARD LVCMOS33 } [get_ports { d1[0] }];

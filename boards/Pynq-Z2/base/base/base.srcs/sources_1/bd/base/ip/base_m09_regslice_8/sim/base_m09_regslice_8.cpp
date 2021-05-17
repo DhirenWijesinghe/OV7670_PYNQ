@@ -89,7 +89,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     M_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -105,8 +105,8 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     M_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     M_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     M_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     M_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     M_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -119,7 +119,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,9,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
+    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,7,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
 
     // M_AXI' transactor ports
 
@@ -162,7 +162,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -178,8 +178,8 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     S_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     S_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     S_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     S_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     S_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -192,7 +192,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,9,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,7,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
 
     // S_AXI' transactor ports
 
@@ -260,7 +260,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     M_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -276,8 +276,8 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     M_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     M_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     M_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     M_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     M_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -290,7 +290,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,9,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
+    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,7,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
 
     // M_AXI' transactor ports
 
@@ -333,7 +333,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -349,8 +349,8 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     S_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     S_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     S_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     S_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     S_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -363,7 +363,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,9,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,7,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
 
     // S_AXI' transactor ports
 
@@ -431,7 +431,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     M_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -447,8 +447,8 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     M_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     M_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     M_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     M_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     M_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -461,7 +461,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     M_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,9,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
+    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,7,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
 
     // M_AXI' transactor ports
 
@@ -504,7 +504,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -520,8 +520,8 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     S_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     S_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     S_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     S_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     S_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -534,7 +534,7 @@ void base_m09_regslice_8::before_end_of_elaboration()
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,9,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,7,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
 
     // S_AXI' transactor ports
 
@@ -590,7 +590,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     M_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     M_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -606,8 +606,8 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     M_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     M_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     M_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     M_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     M_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     M_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -620,7 +620,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     M_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,9,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
+    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,7,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
   mp_M_AXI_transactor->ARADDR(m_axi_araddr);
   mp_M_AXI_transactor->ARPROT(m_axi_arprot);
   mp_M_AXI_transactor->ARREADY(m_axi_arready);
@@ -648,7 +648,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -664,8 +664,8 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     S_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     S_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     S_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     S_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     S_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     S_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -678,7 +678,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,9,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,7,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
   mp_S_AXI_transactor->ARADDR(s_axi_araddr);
   mp_S_AXI_transactor->ARPROT(s_axi_arprot);
   mp_S_AXI_transactor->ARREADY(s_axi_arready);
@@ -766,7 +766,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     M_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    M_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     M_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -782,8 +782,8 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     M_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     M_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     M_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    M_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    M_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     M_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     M_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     M_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -796,7 +796,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     M_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,9,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
+    mp_M_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,7,1,1,1,1,1,1>("M_AXI_transactor", M_AXI_transactor_param_props);
   mp_M_AXI_transactor->ARADDR(m_axi_araddr);
   mp_M_AXI_transactor->ARPROT(m_axi_arprot);
   mp_M_AXI_transactor->ARREADY(m_axi_arready);
@@ -824,7 +824,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     S_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     S_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     S_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "9");
+    S_AXI_transactor_param_props.addLong("ADDR_WIDTH", "7");
     S_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     S_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -840,8 +840,8 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     S_AXI_transactor_param_props.addLong("HAS_BRESP", "1");
     S_AXI_transactor_param_props.addLong("HAS_RRESP", "1");
     S_AXI_transactor_param_props.addLong("SUPPORTS_NARROW_BURST", "0");
-    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "2");
-    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "2");
+    S_AXI_transactor_param_props.addLong("NUM_READ_OUTSTANDING", "8");
+    S_AXI_transactor_param_props.addLong("NUM_WRITE_OUTSTANDING", "8");
     S_AXI_transactor_param_props.addLong("MAX_BURST_LENGTH", "1");
     S_AXI_transactor_param_props.addLong("NUM_READ_THREADS", "1");
     S_AXI_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
@@ -854,7 +854,7 @@ base_m09_regslice_8::base_m09_regslice_8(const sc_core::sc_module_name& nm) : ba
     S_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     S_AXI_transactor_param_props.addString("CLK_DOMAIN", "base_ps7_0_0_FCLK_CLK0");
 
-    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,9,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
+    mp_S_AXI_transactor = new xtlm::xaximm_pin2xtlm_t<32,7,1,1,1,1,1,1>("S_AXI_transactor", S_AXI_transactor_param_props);
   mp_S_AXI_transactor->ARADDR(s_axi_araddr);
   mp_S_AXI_transactor->ARPROT(s_axi_arprot);
   mp_S_AXI_transactor->ARREADY(s_axi_arready);

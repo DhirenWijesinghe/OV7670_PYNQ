@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:wire_distributor:1.0
-// IP Revision: 3
+// IP Revision: 4
 
-(* X_CORE_INFO = "wire_distributor,Vivado 2020.1" *)
+(* X_CORE_INFO = "wire_distributor,Vivado 2020.1.1" *)
 (* CHECK_LICENSE_TYPE = "base_distributor_pmoda_0,wire_distributor,{}" *)
-(* CORE_GENERATION_INFO = "base_distributor_pmoda_0,wire_distributor,{x_ipProduct=Vivado 2020.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=wire_distributor,x_ipVersion=1.0,x_ipCoreRevision=3,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,TYPE=0,WIDTH=8}" *)
+(* CORE_GENERATION_INFO = "base_distributor_pmoda_0,wire_distributor,{x_ipProduct=Vivado 2020.1.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=wire_distributor,x_ipVersion=1.0,x_ipCoreRevision=4,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,TYPE=0,WIDTH=8}" *)
 (* IP_DEFINITION_SOURCE = "package_project" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module base_distributor_pmoda_0 (

@@ -1,21 +1,21 @@
 #-----------------------------------------------------------
-# Vivado v2020.1 (64-bit)
-# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu May 13 15:54:44 2021
-# Process ID: 18724
-# Current directory: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Sun May 16 23:34:08 2021
+# Process ID: 29980
+# Current directory: C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1
 # Command line: vivado.exe -log base_mdm_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source base_mdm_1_0.tcl
-# Log file: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/base_mdm_1_0.vds
-# Journal file: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1\vivado.jou
+# Log file: C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/base_mdm_1_0.vds
+# Journal file: C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source base_mdm_1_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1034.973 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/camera_capture_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/camera_capture_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/camera_capture_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
-WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.cache/ip 
 Command: synth_design -top base_mdm_1_0 -part xc7z020clg400-1 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
@@ -23,11 +23,11 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3316
+INFO: [Synth 8-7075] Helper process launched with PID 41320
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1034.973 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1030.000 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'base_mdm_1_0' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/synth/base_mdm_1_0.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'base_mdm_1_0' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/synth/base_mdm_1_0.vhd:101]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
 	Parameter C_USE_BSCAN bound to: 0 - type: integer 
@@ -60,8 +60,8 @@ INFO: [Synth 8-638] synthesizing module 'base_mdm_1_0' [c:/Users/dhire/OneDrive/
 	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
 	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
-INFO: [Synth 8-3491] module 'MDM' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:12605' bound to instance 'U0' of component 'MDM' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/synth/base_mdm_1_0.vhd:1709]
-INFO: [Synth 8-638] synthesizing module 'MDM' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:14260]
+INFO: [Synth 8-3491] module 'MDM' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:12605' bound to instance 'U0' of component 'MDM' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/synth/base_mdm_1_0.vhd:1709]
+INFO: [Synth 8-638] synthesizing module 'MDM' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:14260]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
 	Parameter C_USE_BSCAN bound to: 0 - type: integer 
@@ -97,30 +97,30 @@ INFO: [Synth 8-638] synthesizing module 'MDM' [c:/Users/dhire/OneDrive/Documents
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter DISABLE_JTAG bound to: FALSE - type: string 
 	Parameter JTAG_CHAIN bound to: 2 - type: integer 
-INFO: [Synth 8-3491] module 'MB_BSCANE2' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:311' bound to instance 'BSCAN_I' of component 'MB_BSCANE2' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:15865]
-INFO: [Synth 8-638] synthesizing module 'MB_BSCANE2' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:335]
+INFO: [Synth 8-3491] module 'MB_BSCANE2' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:311' bound to instance 'BSCAN_I' of component 'MB_BSCANE2' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:15865]
+INFO: [Synth 8-638] synthesizing module 'MB_BSCANE2' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:335]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter DISABLE_JTAG bound to: FALSE - type: string 
 	Parameter JTAG_CHAIN bound to: 2 - type: integer 
 	Parameter DISABLE_JTAG bound to: FALSE - type: string 
 	Parameter JTAG_CHAIN bound to: 2 - type: integer 
-INFO: [Synth 8-113] binding component instance 'BSCANE2_I' to cell 'BSCANE2' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:345]
-INFO: [Synth 8-256] done synthesizing module 'MB_BSCANE2' (1#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:335]
+INFO: [Synth 8-113] binding component instance 'BSCANE2_I' to cell 'BSCANE2' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:345]
+INFO: [Synth 8-256] done synthesizing module 'MB_BSCANE2' (1#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:335]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter INIT bound to: 2'b10 
-INFO: [Synth 8-3491] module 'MB_LUT1' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1459' bound to instance 'LUT1_I' of component 'MB_LUT1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:15883]
-INFO: [Synth 8-638] synthesizing module 'MB_LUT1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1473]
+INFO: [Synth 8-3491] module 'MB_LUT1' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1459' bound to instance 'LUT1_I' of component 'MB_LUT1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:15883]
+INFO: [Synth 8-638] synthesizing module 'MB_LUT1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1473]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter INIT bound to: 2'b10 
 	Parameter INIT bound to: 2'b10 
-INFO: [Synth 8-113] binding component instance 'Native' to cell 'LUT1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1495]
-INFO: [Synth 8-256] done synthesizing module 'MB_LUT1' (2#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1473]
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'LUT1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1495]
+INFO: [Synth 8-256] done synthesizing module 'MB_LUT1' (2#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:1473]
 	Parameter C_TARGET bound to: 3 - type: integer 
-INFO: [Synth 8-3491] module 'MB_BUFG' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:373' bound to instance 'BUFG_DRCK' of component 'MB_BUFG' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:16351]
-INFO: [Synth 8-638] synthesizing module 'MB_BUFG' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:386]
+INFO: [Synth 8-3491] module 'MB_BUFG' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:373' bound to instance 'BUFG_DRCK' of component 'MB_BUFG' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:16351]
+INFO: [Synth 8-638] synthesizing module 'MB_BUFG' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:386]
 	Parameter C_TARGET bound to: 3 - type: integer 
-INFO: [Synth 8-113] binding component instance 'Native' to cell 'BUFG' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:396]
-INFO: [Synth 8-256] done synthesizing module 'MB_BUFG' (3#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:386]
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'BUFG' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:396]
+INFO: [Synth 8-256] done synthesizing module 'MB_BUFG' (3#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:386]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
 	Parameter C_USE_BSCAN bound to: 0 - type: integer 
@@ -150,8 +150,8 @@ INFO: [Synth 8-256] done synthesizing module 'MB_BUFG' (3#1) [c:/Users/dhire/One
 	Parameter C_TRACE_ID bound to: 110 - type: integer 
 	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
-INFO: [Synth 8-3491] module 'MDM_Core' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:5724' bound to instance 'MDM_Core_I1' of component 'MDM_Core' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:16449]
-INFO: [Synth 8-638] synthesizing module 'MDM_Core' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:6961]
+INFO: [Synth 8-3491] module 'MDM_Core' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:5724' bound to instance 'MDM_Core_I1' of component 'MDM_Core' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:16449]
+INFO: [Synth 8-638] synthesizing module 'MDM_Core' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:6961]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_JTAG_CHAIN bound to: 2 - type: integer 
 	Parameter C_USE_BSCAN bound to: 0 - type: integer 
@@ -181,11 +181,11 @@ INFO: [Synth 8-638] synthesizing module 'MDM_Core' [c:/Users/dhire/OneDrive/Docu
 	Parameter C_TRACE_ID bound to: 110 - type: integer 
 	Parameter C_M_AXIS_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_M_AXIS_ID_WIDTH bound to: 7 - type: integer 
-INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'config_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:7644]
-INFO: [Synth 8-638] synthesizing module 'xil_scan_reset_control' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:296]
-INFO: [Synth 8-256] done synthesizing module 'xil_scan_reset_control' (4#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:296]
-INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'sel_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:7654]
-INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'shift_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:7664]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'config_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:7644]
+INFO: [Synth 8-638] synthesizing module 'xil_scan_reset_control' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:296]
+INFO: [Synth 8-256] done synthesizing module 'xil_scan_reset_control' (4#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:296]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'sel_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:7654]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'shift_n_reset_i' of component 'xil_scan_reset_control' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:7664]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_USE_BSCAN bound to: 0 - type: integer 
 	Parameter C_MB_DBG_PORTS bound to: 4 - type: integer 
@@ -203,8 +203,8 @@ INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/dhire
 	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
 	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_EN_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'JTAG_CONTROL' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3007' bound to instance 'JTAG_CONTROL_I' of component 'JTAG_CONTROL' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:10355]
-INFO: [Synth 8-638] synthesizing module 'JTAG_CONTROL' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3280]
+INFO: [Synth 8-3491] module 'JTAG_CONTROL' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3007' bound to instance 'JTAG_CONTROL_I' of component 'JTAG_CONTROL' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:10355]
+INFO: [Synth 8-638] synthesizing module 'JTAG_CONTROL' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3280]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_USE_BSCAN bound to: 0 - type: integer 
 	Parameter C_MB_DBG_PORTS bound to: 4 - type: integer 
@@ -222,141 +222,141 @@ INFO: [Synth 8-638] synthesizing module 'JTAG_CONTROL' [c:/Users/dhire/OneDrive/
 	Parameter C_TRACE_OUTPUT bound to: 0 - type: integer 
 	Parameter C_TRACE_PROTOCOL bound to: 1 - type: integer 
 	Parameter C_EN_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'config_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3589]
-INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'sel_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3597]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'config_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3589]
+INFO: [Synth 8-3491] module 'xil_scan_reset_control' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:287' bound to instance 'sel_with_scan_reset_i' of component 'xil_scan_reset_control' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3597]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-3491] module 'MB_FDC_1' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:672' bound to instance 'FDC_I' of component 'MB_FDC_1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3654]
-INFO: [Synth 8-638] synthesizing module 'MB_FDC_1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:688]
-	Parameter C_TARGET bound to: 3 - type: integer 
-	Parameter INIT bound to: 1'b0 
-	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDC_1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:709]
-INFO: [Synth 8-256] done synthesizing module 'MB_FDC_1' (5#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:688]
-	Parameter C_TARGET bound to: 3 - type: integer 
-	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-3491] module 'MB_FDRE_1' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:731' bound to instance 'SYNC_FDRE' of component 'MB_FDRE_1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3664]
-INFO: [Synth 8-638] synthesizing module 'MB_FDRE_1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:748]
+INFO: [Synth 8-3491] module 'MB_FDC_1' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:672' bound to instance 'FDC_I' of component 'MB_FDC_1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3654]
+INFO: [Synth 8-638] synthesizing module 'MB_FDC_1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:688]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter INIT bound to: 1'b0 
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDRE_1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:771]
-INFO: [Synth 8-256] done synthesizing module 'MB_FDRE_1' (6#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:748]
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDC_1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:709]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDC_1' (5#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:688]
+	Parameter C_TARGET bound to: 3 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'MB_FDRE_1' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:731' bound to instance 'SYNC_FDRE' of component 'MB_FDRE_1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3664]
+INFO: [Synth 8-638] synthesizing module 'MB_FDRE_1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:748]
+	Parameter C_TARGET bound to: 3 - type: integer 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Native' to cell 'FDRE_1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:771]
+INFO: [Synth 8-256] done synthesizing module 'MB_FDRE_1' (6#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:748]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0000010001100111 
-INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_1' of component 'MB_SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3858]
-INFO: [Synth 8-638] synthesizing module 'MB_SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_1' of component 'MB_SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3858]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0000010001100111 
 	Parameter INIT bound to: 16'b0000010001100111 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
-INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E' (7#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E' (7#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0100001010000111 
-INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_2' of component 'MB_SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3876]
-INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized1' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_2' of component 'MB_SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3876]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized1' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0100001010000111 
 	Parameter INIT bound to: 16'b0100001010000111 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
-INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized1' (7#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized1' (7#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0100010001000011 
-INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_ID_1' of component 'MB_SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3947]
-INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized3' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_ID_1' of component 'MB_SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3947]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized3' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0100010001000011 
 	Parameter INIT bound to: 16'b0100010001000011 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
-INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized3' (7#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized3' (7#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0101100001001101 
-INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_ID_2' of component 'MB_SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3965]
-INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized5' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-3491] module 'MB_SRL16E' declared at 'c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:794' bound to instance 'SRL16E_ID_2' of component 'MB_SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3965]
+INFO: [Synth 8-638] synthesizing module 'MB_SRL16E__parameterized5' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
 	Parameter C_TARGET bound to: 3 - type: integer 
 	Parameter C_STATIC bound to: 1 - type: bool 
 	Parameter C_USE_SRL16 bound to: yes - type: string 
 	Parameter INIT bound to: 16'b0101100001001101 
 	Parameter INIT bound to: 16'b0101100001001101 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
-INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized5' (7#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
-INFO: [Synth 8-256] done synthesizing module 'JTAG_CONTROL' (8#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3280]
-INFO: [Synth 8-256] done synthesizing module 'MDM_Core' (9#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:6961]
-INFO: [Synth 8-256] done synthesizing module 'MDM' (10#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:14260]
-INFO: [Synth 8-256] done synthesizing module 'base_mdm_1_0' (11#1) [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/synth/base_mdm_1_0.vhd:101]
+INFO: [Synth 8-113] binding component instance 'MB_SRL16E_I1' to cell 'SRL16E' [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:822]
+INFO: [Synth 8-256] done synthesizing module 'MB_SRL16E__parameterized5' (7#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:818]
+INFO: [Synth 8-256] done synthesizing module 'JTAG_CONTROL' (8#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:3280]
+INFO: [Synth 8-256] done synthesizing module 'MDM_Core' (9#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:6961]
+INFO: [Synth 8-256] done synthesizing module 'MDM' (10#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ipshared/e9fa/hdl/mdm_v3_2_vh_rfs.vhd:14260]
+INFO: [Synth 8-256] done synthesizing module 'base_mdm_1_0' (11#1) [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/synth/base_mdm_1_0.vhd:101]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:40 . Memory (MB): peak = 1115.750 ; gain = 80.777
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1030.000 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:42 . Memory (MB): peak = 1115.750 ; gain = 80.777
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1030.000 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:42 . Memory (MB): peak = 1115.750 ; gain = 80.777
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1030.000 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.307 . Memory (MB): peak = 1119.453 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 1030.000 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0_ooc_trace.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0_ooc_trace.xdc] for cell 'U0'
-Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.xdc] for cell 'U0'
-Finished Parsing XDC File [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.xdc] for cell 'U0'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/base_mdm_1_0_propImpl.xdc].
+Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0_ooc_trace.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0_ooc_trace.xdc] for cell 'U0'
+Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_mdm_1_0/base_mdm_1_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/base_mdm_1_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/base_mdm_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/dont_touch.xdc]
+Parsing XDC File [C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1215.113 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1095.598 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   FDC_1 => FDCE (inverted pins: C): 1 instance 
   FDRE_1 => FDRE (inverted pins: C): 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1221.063 ; gain = 5.949
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1106.266 ; gain = 10.668
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:01:07 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:01:07 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:01:07 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:01:17 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -404,25 +404,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:01:23 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:52 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:53 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:15 ; elapsed = 00:01:54 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -440,37 +440,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:24 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:25 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:25 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:25 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:25 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:25 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -517,31 +517,31 @@ Report Cell Usage:
 |13    |FDRE    |     4|
 +------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:25 ; elapsed = 00:02:09 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:51 ; elapsed = 00:02:00 . Memory (MB): peak = 1221.063 ; gain = 80.777
-Synthesis Optimization Complete : Time (s): cpu = 00:01:25 ; elapsed = 00:02:10 . Memory (MB): peak = 1221.063 ; gain = 186.090
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:45 . Memory (MB): peak = 1106.266 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 1106.266 ; gain = 76.266
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.156 . Memory (MB): peak = 1221.063 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1106.266 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1232.059 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1119.855 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   FDC_1 => FDCE (inverted pins: C): 1 instance 
   FDRE_1 => FDRE (inverted pins: C): 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-74 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+76 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:02:35 . Memory (MB): peak = 1232.059 ; gain = 197.086
-INFO: [Common 17-1381] The checkpoint 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/base_mdm_1_0.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:01:00 . Memory (MB): peak = 1119.855 ; gain = 89.855
+INFO: [Common 17-1381] The checkpoint 'C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/base_mdm_1_0.dcp' has been generated.
 WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP base_mdm_1_0, cache-ID = 3ad0de804fc77398
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP base_mdm_1_0, cache-ID = c4c9009a7c3c59e3
 INFO: [Coretcl 2-1174] Renamed 12 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/base_mdm_1_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.runs/base_mdm_1_0_synth_1/base_mdm_1_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file base_mdm_1_0_utilization_synth.rpt -pb base_mdm_1_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May 13 15:57:43 2021...
+INFO: [Common 17-206] Exiting Vivado at Sun May 16 23:35:16 2021...

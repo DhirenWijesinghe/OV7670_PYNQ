@@ -600,6 +600,18 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_rpi_7_6_1 
 # IP: bd/base/ip/base_xlconcat_0_1/base_xlconcat_0_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_xlconcat_0_1 || ORIG_REF_NAME==base_xlconcat_0_1} -quiet] -quiet
 
+# IP: bd/base/ip/base_clk_wiz_0_0/base_clk_wiz_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_clk_wiz_0_0 || ORIG_REF_NAME==base_clk_wiz_0_0} -quiet] -quiet
+
+# IP: bd/base/ip/base_axi_bram_ctrl_0_0/base_axi_bram_ctrl_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_axi_bram_ctrl_0_0 || ORIG_REF_NAME==base_axi_bram_ctrl_0_0} -quiet] -quiet
+
+# IP: bd/base/ip/base_blk_mem_gen_0_0/base_blk_mem_gen_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_blk_mem_gen_0_0 || ORIG_REF_NAME==base_blk_mem_gen_0_0} -quiet] -quiet
+
+# IP: bd/base/ip/base_camera_capture_0_0/base_camera_capture_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_camera_capture_0_0 || ORIG_REF_NAME==base_camera_capture_0_0} -quiet] -quiet
+
 # IP: bd/base/ip/base_auto_pc_0/base_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_0 || ORIG_REF_NAME==base_auto_pc_0} -quiet] -quiet
 
@@ -636,11 +648,11 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m06_regsli
 # IP: bd/base/ip/base_m07_regslice_13/base_m07_regslice_13.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m07_regslice_13 || ORIG_REF_NAME==base_m07_regslice_13} -quiet] -quiet
 
-# IP: bd/base/ip/base_m08_regslice_6/base_m08_regslice_6.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_6 || ORIG_REF_NAME==base_m08_regslice_6} -quiet] -quiet
+# IP: bd/base/ip/base_m08_regslice_9/base_m08_regslice_9.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_9 || ORIG_REF_NAME==base_m08_regslice_9} -quiet] -quiet
 
-# IP: bd/base/ip/base_m09_regslice_6/base_m09_regslice_6.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_6 || ORIG_REF_NAME==base_m09_regslice_6} -quiet] -quiet
+# IP: bd/base/ip/base_m09_regslice_9/base_m09_regslice_9.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_9 || ORIG_REF_NAME==base_m09_regslice_9} -quiet] -quiet
 
 # IP: bd/base/ip/base_m10_regslice_4/base_m10_regslice_4.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m10_regslice_4 || ORIG_REF_NAME==base_m10_regslice_4} -quiet] -quiet
@@ -741,11 +753,11 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m06_regsli
 # IP: bd/base/ip/base_m07_regslice_16/base_m07_regslice_16.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m07_regslice_16 || ORIG_REF_NAME==base_m07_regslice_16} -quiet] -quiet
 
-# IP: bd/base/ip/base_m08_regslice_7/base_m08_regslice_7.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_7 || ORIG_REF_NAME==base_m08_regslice_7} -quiet] -quiet
+# IP: bd/base/ip/base_m08_regslice_10/base_m08_regslice_10.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_10 || ORIG_REF_NAME==base_m08_regslice_10} -quiet] -quiet
 
-# IP: bd/base/ip/base_m09_regslice_7/base_m09_regslice_7.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_7 || ORIG_REF_NAME==base_m09_regslice_7} -quiet] -quiet
+# IP: bd/base/ip/base_m09_regslice_10/base_m09_regslice_10.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_10 || ORIG_REF_NAME==base_m09_regslice_10} -quiet] -quiet
 
 # IP: bd/base/ip/base_m10_regslice_5/base_m10_regslice_5.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m10_regslice_5 || ORIG_REF_NAME==base_m10_regslice_5} -quiet] -quiet
@@ -756,8 +768,8 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m11_regsli
 # IP: bd/base/ip/base_s00_regslice_14/base_s00_regslice_14.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_s00_regslice_14 || ORIG_REF_NAME==base_s00_regslice_14} -quiet] -quiet
 
-# IP: bd/base/ip/base_auto_pc_8/base_auto_pc_8.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_8 || ORIG_REF_NAME==base_auto_pc_8} -quiet] -quiet
+# IP: bd/base/ip/base_auto_pc_9/base_auto_pc_9.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_9 || ORIG_REF_NAME==base_auto_pc_9} -quiet] -quiet
 
 # IP: bd/base/ip/base_m00_regslice_14/base_m00_regslice_14.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m00_regslice_14 || ORIG_REF_NAME==base_m00_regslice_14} -quiet] -quiet
@@ -801,6 +813,15 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m07_regsli
 # IP: bd/base/ip/base_auto_pc_7/base_auto_pc_7.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_7 || ORIG_REF_NAME==base_auto_pc_7} -quiet] -quiet
 
+# IP: bd/base/ip/base_m08_regslice_8/base_m08_regslice_8.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_8 || ORIG_REF_NAME==base_m08_regslice_8} -quiet] -quiet
+
+# IP: bd/base/ip/base_m09_regslice_8/base_m09_regslice_8.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_8 || ORIG_REF_NAME==base_m09_regslice_8} -quiet] -quiet
+
+# IP: bd/base/ip/base_auto_pc_8/base_auto_pc_8.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_8 || ORIG_REF_NAME==base_auto_pc_8} -quiet] -quiet
+
 # IP: bd/base/ip/base_s00_regslice_15/base_s00_regslice_15.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_s00_regslice_15 || ORIG_REF_NAME==base_s00_regslice_15} -quiet] -quiet
 
@@ -816,14 +837,14 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m02_regsli
 # IP: bd/base/ip/base_m03_regslice_15/base_m03_regslice_15.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m03_regslice_15 || ORIG_REF_NAME==base_m03_regslice_15} -quiet] -quiet
 
-# IP: bd/base/ip/base_auto_pc_9/base_auto_pc_9.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_9 || ORIG_REF_NAME==base_auto_pc_9} -quiet] -quiet
+# IP: bd/base/ip/base_auto_pc_10/base_auto_pc_10.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_10 || ORIG_REF_NAME==base_auto_pc_10} -quiet] -quiet
 
 # IP: bd/base/ip/base_s00_regslice_20/base_s00_regslice_20.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_s00_regslice_20 || ORIG_REF_NAME==base_s00_regslice_20} -quiet] -quiet
 
-# IP: bd/base/ip/base_auto_pc_10/base_auto_pc_10.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_10 || ORIG_REF_NAME==base_auto_pc_10} -quiet] -quiet
+# IP: bd/base/ip/base_auto_pc_11/base_auto_pc_11.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_11 || ORIG_REF_NAME==base_auto_pc_11} -quiet] -quiet
 
 # IP: bd/base/ip/base_m00_regslice_20/base_m00_regslice_20.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m00_regslice_20 || ORIG_REF_NAME==base_m00_regslice_20} -quiet] -quiet
@@ -861,19 +882,16 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m07_regsli
 # IP: bd/base/ip/base_auto_cc_3/base_auto_cc_3.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_cc_3 || ORIG_REF_NAME==base_auto_cc_3} -quiet] -quiet
 
-# IP: bd/base/ip/base_m08_regslice_8/base_m08_regslice_8.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_8 || ORIG_REF_NAME==base_m08_regslice_8} -quiet] -quiet
+# IP: bd/base/ip/base_m08_regslice_11/base_m08_regslice_11.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m08_regslice_11 || ORIG_REF_NAME==base_m08_regslice_11} -quiet] -quiet
 
-# IP: bd/base/ip/base_m09_regslice_8/base_m09_regslice_8.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_8 || ORIG_REF_NAME==base_m09_regslice_8} -quiet] -quiet
+# IP: bd/base/ip/base_m09_regslice_11/base_m09_regslice_11.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_m09_regslice_11 || ORIG_REF_NAME==base_m09_regslice_11} -quiet] -quiet
 
 # IP: bd/base/ip/base_auto_us_1/base_auto_us_1.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_us_1 || ORIG_REF_NAME==base_auto_us_1} -quiet] -quiet
 
-# IP: bd/base/ip/base_auto_pc_11/base_auto_pc_11.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_11 || ORIG_REF_NAME==base_auto_pc_11} -quiet] -quiet
-
-# IP: bd/base/ip/base_clk_wiz_0_0/base_clk_wiz_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_clk_wiz_0_0 || ORIG_REF_NAME==base_clk_wiz_0_0} -quiet] -quiet
+# IP: bd/base/ip/base_auto_pc_12/base_auto_pc_12.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==base_auto_pc_12 || ORIG_REF_NAME==base_auto_pc_12} -quiet] -quiet
 
 # XDC: bd/base/base_ooc.xdc

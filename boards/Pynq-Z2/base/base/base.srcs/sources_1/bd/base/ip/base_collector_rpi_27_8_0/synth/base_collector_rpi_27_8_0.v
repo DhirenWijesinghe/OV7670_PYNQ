@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:user:wire_distributor:1.0
-// IP Revision: 3
+// IP Revision: 4
 
-(* X_CORE_INFO = "wire_distributor,Vivado 2020.1" *)
+(* X_CORE_INFO = "wire_distributor,Vivado 2020.1.1" *)
 (* CHECK_LICENSE_TYPE = "base_collector_rpi_27_8_0,wire_distributor,{}" *)
-(* CORE_GENERATION_INFO = "base_collector_rpi_27_8_0,wire_distributor,{x_ipProduct=Vivado 2020.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=wire_distributor,x_ipVersion=1.0,x_ipCoreRevision=3,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,TYPE=1,WIDTH=20}" *)
+(* CORE_GENERATION_INFO = "base_collector_rpi_27_8_0,wire_distributor,{x_ipProduct=Vivado 2020.1.1,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=wire_distributor,x_ipVersion=1.0,x_ipCoreRevision=4,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,TYPE=1,WIDTH=20}" *)
 (* IP_DEFINITION_SOURCE = "package_project" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module base_collector_rpi_27_8_0 (

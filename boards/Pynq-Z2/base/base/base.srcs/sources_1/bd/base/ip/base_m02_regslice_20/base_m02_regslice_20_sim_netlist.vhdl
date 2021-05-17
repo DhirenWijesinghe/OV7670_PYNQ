@@ -1,11 +1,11 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Thu May 13 15:09:31 2021
--- Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_m02_regslice_20/base_m02_regslice_20_sim_netlist.vhdl
--- Design      : base_m02_regslice_20
+-- Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+-- Date        : Sun May 16 22:13:45 2021
+-- Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim -rename_top base_m02_regslice_20 -prefix
+--               base_m02_regslice_20_ base_m06_regslice_23_sim_netlist.vhdl
+-- Design      : base_m06_regslice_23
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xc7z020clg400-1
@@ -27,8 +27,6 @@ entity base_m02_regslice_20_axi_register_slice_v2_1_21_axic_register_slice is
     s_ready_i_reg_0 : in STD_LOGIC;
     D : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_m02_regslice_20_axi_register_slice_v2_1_21_axic_register_slice : entity is "axi_register_slice_v2_1_21_axic_register_slice";
 end base_m02_regslice_20_axi_register_slice_v2_1_21_axic_register_slice;
 
 architecture STRUCTURE of base_m02_regslice_20_axi_register_slice_v2_1_21_axic_register_slice is
@@ -1551,8 +1549,6 @@ entity base_m02_regslice_20_axi_register_slice_v2_1_21_axi_register_slice is
   attribute G_AXI_WUSER_INDEX of base_m02_regslice_20_axi_register_slice_v2_1_21_axi_register_slice : entity is 36;
   attribute G_AXI_WUSER_WIDTH : integer;
   attribute G_AXI_WUSER_WIDTH of base_m02_regslice_20_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_m02_regslice_20_axi_register_slice_v2_1_21_axi_register_slice : entity is "axi_register_slice_v2_1_21_axi_register_slice";
   attribute P_FORWARD : integer;
   attribute P_FORWARD of base_m02_regslice_20_axi_register_slice_v2_1_21_axi_register_slice : entity is 0;
   attribute P_RESPONSE : integer;
@@ -1766,11 +1762,11 @@ entity base_m02_regslice_20 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of base_m02_regslice_20 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of base_m02_regslice_20 : entity is "base_m02_regslice_20,axi_register_slice_v2_1_21_axi_register_slice,{}";
+  attribute CHECK_LICENSE_TYPE of base_m02_regslice_20 : entity is "base_m06_regslice_23,axi_register_slice_v2_1_21_axi_register_slice,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of base_m02_regslice_20 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of base_m02_regslice_20 : entity is "axi_register_slice_v2_1_21_axi_register_slice,Vivado 2020.1";
+  attribute X_CORE_INFO of base_m02_regslice_20 : entity is "axi_register_slice_v2_1_21_axi_register_slice,Vivado 2020.1.1";
 end base_m02_regslice_20;
 
 architecture STRUCTURE of base_m02_regslice_20 is

@@ -1,0 +1,100 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Mon May 17 00:56:10 2021
+| Host         : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_distributor_rpi_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_distributor_rpi_0 (xilinx.com:user:wire_distributor:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Mon May 17 00:56:10 2021
+| Host         : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_distributor_pmoda_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_distributor_pmoda_0 (xilinx.com:user:wire_distributor:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Mon May 17 00:56:10 2021
+| Host         : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_collector_rpi_27_8_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_collector_rpi_27_8_0 (xilinx.com:user:wire_distributor:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Mon May 17 00:56:10 2021
+| Host         : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_collector_pmoda_rpi_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_collector_pmoda_rpi_0 (xilinx.com:user:wire_distributor:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+| Date         : Sun May 16 22:17:27 2021
+| Host         : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'base_camera_capture_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of base_camera_capture_0_0 (xilinx.com:user:camera_capture:1.0) from (Rev. 2) to (Rev. 3)
+
