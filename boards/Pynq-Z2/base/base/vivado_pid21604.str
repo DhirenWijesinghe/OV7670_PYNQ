@@ -772,3 +772,333 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 // WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5799 ms. Increasing delay to 10000 ms.
 // WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1960 ms. Decreasing delay to 3960 ms.
 // WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3246 ms. Increasing delay to 9738 ms.
+// Elapsed time: 982 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - sad", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0_S00_AXI.v", 3); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m (l, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - sad", 1); // m (l, cs)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (J, cs)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // M (J, cs)
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0_S00_AXI.v", 3); // m (l, cs)
+// Elapsed time: 75 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 893, 479); // bP (w, cs)
+// Elapsed time: 171 seconds
+closeMainWindow("edit_sad_v1_0 - [c:/users/dhire/onedrive/documents/school/ee382n_adv_micro/ov7670_pynq/boards/pynq-z2/base/ip_repo/edit_sad_v1_0.xpr] - Vivado 2020.1"); // cs
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cs): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Close Project"); // A (cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 230 MB. Current time: 5/16/21, 10:45:00 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1095 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 222 MB. Current time: 5/16/21, 11:15:00 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 221 MB. Current time: 5/16/21, 11:45:00 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 221 MB. Current time: 5/17/21, 12:15:00 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 222 MB. Current time: 5/17/21, 12:45:01 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 222 MB. Current time: 5/17/21, 1:15:01 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 216 MB. Current time: 5/17/21, 1:45:01 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 2:15:01 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 218 MB. Current time: 5/17/21, 2:45:02 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 3:15:02 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 218 MB. Current time: 5/17/21, 3:45:02 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 4:15:02 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 4:45:03 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 5:15:03 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 5:45:03 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 6:15:04 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 6:45:04 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 218 MB. Current time: 5/17/21, 7:15:04 AM CDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6183 ms. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 218 MB. Current time: 5/17/21, 7:45:04 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 8:15:05 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 216 MB. Current time: 5/17/21, 8:45:05 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 9:15:05 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 216 MB. Current time: 5/17/21, 9:45:05 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 10:15:06 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 216 MB. Current time: 5/17/21, 10:45:06 AM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 217 MB. Current time: 5/17/21, 11:15:06 AM CDT
+// [GUI Memory]: 311 MB (+4852kb) [13:40:18]
+// Elapsed time: 47058 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 379, 181); // bP (w, cs)
+// Elapsed time: 61 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 670, 199); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 670, 199, false, false, false, true, false); // bP (w, cs) - Popup Trigger
+selectCodeEditor("sad_v1_0_S00_AXI.v", 616, 177); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 271, 219); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 385, 187); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 378, 217); // bP (w, cs)
+// Elapsed time: 38 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 243, 424); // bP (w, cs)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0.v", 2); // m (l, cs)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0_S00_AXI.v", 3); // m (l, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0.v", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0_S00_AXI.v", 3); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 240 MB. Current time: 5/17/21, 11:45:07 AM CDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8754 ms. Increasing delay to 26262 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10713 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1105 ms. Decreasing delay to 3105 ms.
+// Elapsed time: 198 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 271, 579); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 282, 604); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2798 ms. Increasing delay to 8394 ms.
+// Elapsed time: 176 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 321, 599); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8316 ms. Increasing delay to 24948 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7584 ms. Increasing delay to 10000 ms.
+// Elapsed time: 61 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 272, 597); // bP (w, cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5163 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5101 ms. Increasing delay to 10000 ms.
+// Elapsed time: 94 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 307, 602); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 614, 588); // bP (w, cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5273 ms. Increasing delay to 10000 ms.
+selectCodeEditor("sad_v1_0_S00_AXI.v", 175, 590); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1403 ms.
+typeControlKey((HResource) null, "sad_v1_0_S00_AXI.v", 'c'); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 170, 624); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 292, 641); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 177, 626); // bP (w, cs)
+typeControlKey((HResource) null, "sad_v1_0_S00_AXI.v", 'v'); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 200, 619); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 328, 625); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 328, 625, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 361, 627); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 686, 624); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1931 ms.
+selectCodeEditor("sad_v1_0_S00_AXI.v", 454, 593); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1765 ms. Decreasing delay to 3765 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2779 ms. Increasing delay to 8337 ms.
+// Elapsed time: 91 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 257, 598); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 641, 607); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 616, 622); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 259, 631); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 626, 631); // bP (w, cs)
+// Elapsed time: 51 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 299, 657); // bP (w, cs)
+// Elapsed time: 61 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 168, 594); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 170, 593, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 206, 596); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 206, 596, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 189, 631); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 189, 631, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 563, 589); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 503, 583); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 489, 786); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 596, 593); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 572, 755); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 429, 658); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 400, 698); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4973 ms. Increasing delay to 14919 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5088 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1552 ms. Decreasing delay to 3552 ms.
+// Elapsed time: 161 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 211, 761); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 218, 749); // bP (w, cs)
+// Elapsed time: 36 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 485, 567); // bP (w, cs)
+// Elapsed time: 32 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 990, 609); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 104, 588); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 104, 588, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 104, 588); // bP (w, cs)
+typeControlKey((HResource) null, "sad_v1_0_S00_AXI.v", 'c'); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 611, 613); // bP (w, cs)
+typeControlKey((HResource) null, "sad_v1_0_S00_AXI.v", 'v'); // bP (w, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1046 ms.
+selectCodeEditor("sad_v1_0_S00_AXI.v", 212, 657); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 160, 648); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 160, 648, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 556, 679); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2878 ms. Increasing delay to 8634 ms.
+// Elapsed time: 372 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 275, 742); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 349, 786); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 351, 766); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 353, 773); // bP (w, cs)
+// Elapsed time: 262 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 311, 633); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 305, 689); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 300, 625); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 289, 687); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 1042, 589); // bP (w, cs)
+// Elapsed time: 44 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 504, 633); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 241 MB. Current time: 5/17/21, 12:15:07 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1029 ms.
+// Elapsed time: 41 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 429, 687); // bP (w, cs)
+// Elapsed time: 816 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 417, 700); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 458, 744); // bP (w, cs)
+// Elapsed time: 253 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0.v", 2); // m (l, cs)
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sad_v1_0_S00_AXI.v", 3); // m (l, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 125 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 529, 133); // bP (w, cs)
+// Elapsed time: 31 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 161, 274); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 100, 318); // bP (w, cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5709 ms. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 245 MB. Current time: 5/17/21, 12:45:07 PM CDT
+// Elapsed time: 648 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 539, 646); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 281, 800); // bP (w, cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 20774 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 22581 ms. Increasing delay to 67743 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7357 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6560 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7435 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6633 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6679 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6968 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6921 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5860 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5245 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5175 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5147 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5015 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5761 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5283 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5354 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5930 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5198 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5481 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5153 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5025 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5249 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5003 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5045 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5285 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5721 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6213 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6312 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6076 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6725 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5313 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6156 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5013 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6393 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5471 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5083 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5023 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5380 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5052 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5050 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6982 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5066 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5291 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1451 ms. Decreasing delay to 3451 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1103814 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1111996 ms. Increasing delay to 10000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  8405 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 242 MB. Current time: 5/17/21, 1:28:38 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1448 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2084 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10351 ms. Increasing delay to 31053 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1531 ms. Decreasing delay to 3531 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 17821 ms. Increasing delay to 53463 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 20669 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8886 ms. Increasing delay to 10000 ms.
+// Elapsed time: 2603 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 297, 729); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 964 ms. Decreasing delay to 2964 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8937 ms. Increasing delay to 26811 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 11617 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 959 ms. Decreasing delay to 2959 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1801 ms. Increasing delay to 5403 ms.
+// Elapsed time: 138 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 541, 276); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 553, 324); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 413, 332); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 546, 277); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 612, 323); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 383, 346); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 312, 278); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4350 ms. Increasing delay to 13050 ms.
+// Elapsed time: 15 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 308, 278); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 389, 244); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 338, 213); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 173, 189); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 327, 208); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 199, 209); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 331, 218); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 305, 210); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1305 ms. Decreasing delay to 3305 ms.
+selectCodeEditor("sad_v1_0_S00_AXI.v", 312, 246); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 161, 243); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 161, 243, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 161, 243); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 415, 244); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 103, 309); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 338, 301); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 338, 301, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 331, 299); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 110, 320); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 95, 346); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 269, 308); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 269, 308, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 269, 308); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 344, 339); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 204, 330); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 204, 330, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 204, 330); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 496, 331); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 99, 393); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 476, 394); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 119, 393); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 426, 385); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 84, 388); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 406, 445); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1663 ms. Increasing delay to 4989 ms.
+selectCodeEditor("sad_v1_0_S00_AXI.v", 414, 451); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 460, 382); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 332, 460); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 338, 445); // bP (w, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 93, 267); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 546, 343); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 247, 275); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 247, 275, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 247, 275); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 386, 330); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 386, 330, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("sad_v1_0_S00_AXI.v", 386, 330); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 308, 262); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 344, 261); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 325, 350); // bP (w, cs)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3423 ms. Increasing delay to 10269 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1523 ms. Decreasing delay to 3523 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2724 ms. Increasing delay to 8172 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5325 ms. Increasing delay to 15975 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5830 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1147 ms. Decreasing delay to 3147 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2456 ms. Increasing delay to 7368 ms.
+// Elapsed time: 198 seconds
+selectCodeEditor("sad_v1_0_S00_AXI.v", 423, 561); // bP (w, cs)
+selectCodeEditor("sad_v1_0_S00_AXI.v", 249, 571); // bP (w, cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6798 ms. Increasing delay to 10000 ms.
