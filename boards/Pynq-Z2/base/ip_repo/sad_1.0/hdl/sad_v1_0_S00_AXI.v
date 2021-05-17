@@ -4,7 +4,10 @@
 	module sad_v1_0_S00_AXI #
 	(
 		// Users to add parameters here
-
+        parameter integer FRAME_WIDTH = 640,
+        parameter integer FRAME_HEIGHT = 480,
+        parameter integer PIXEL_SIZE = 8,
+        
 		// User parameters ends
 		// Do not modify the parameters beyond this line
 
@@ -15,7 +18,21 @@
 	)
 	(
 		// Users to add ports here
-
+		// Left image horizontal line of pixels (640pixels * 8 bits/pixel) IS THIS TOO MANY BITS??
+        input wire [5120:0] left_h_line,
+        // Right image horizontal line of pixels (640pixels * 8 bits/pixel)
+        input wire [5120:0] right_h_line,
+        // Input from BRAM SM saying the last frame row is inserting
+        input is_last, 
+        input in_ready, 
+        // Output flag saying to send next stream of pixels
+        output next_line,
+        output buffer_full,
+        // Output value of SAD
+        output [27:0] sad_output,
+        // signal saying output can be written to OCM
+        output out_ready,
+        
 		// User ports ends
 		// Do not modify the ports beyond this line
 
