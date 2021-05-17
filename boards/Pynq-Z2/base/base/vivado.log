@@ -1,0 +1,360 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May 16 22:01:14 2021
+# Process ID: 21604
+# Current directory: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21912 C:\Users\dhire\OneDrive\Documents\School\EE382N_Adv_Micro\OV7670_PYNQ\boards\Pynq-Z2\base\base\base.xpr
+# Log file: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/vivado.log
+# Journal file: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base'
+INFO: [Project 1-313] Project file moved from 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.ip_user_files'; using path 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.ip_user_files' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'base.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+base_trace_cntrl_64_0_0
+base_trace_cntrl_32_0_0
+base_pixel_unpack_0
+base_color_convert_0
+base_pixel_pack_0
+base_color_convert_1
+
+open_project: Time (s): cpu = 00:02:09 ; elapsed = 00:01:45 . Memory (MB): peak = 1660.430 ; gain = 637.105
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/base.bd}
+Adding component instance block -- user.org:user:address_remap:1.0 - address_remap_0
+Adding component instance block -- xilinx.com:user:audio_codec_ctrl:1.0 - audio_codec_ctrl_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - axi_protocol_convert_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - btns_gpio
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_10MHz
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - concat_interrupts
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - concat_pmodb
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - concat_rp
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - constant_8bit_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - arduino_gpio
+Adding component instance block -- xilinx.com:user:dff_en_reset_vector:1.0 - dff_en_reset_vector_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - iic_direct
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - intc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - interrupt_concat
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - intr
+Adding component instance block -- xilinx.com:user:io_switch:1.1 - io_switch
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - lmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - logic_1
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - mb
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - mb_bram_ctrl
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m08_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m09_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m10_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m11_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m12_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m13_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m14_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m15_regslice
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - spi_direct
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - spi_shared
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb3_timer_capture_7
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - mb3_timer_generate
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - mb3_timer_pwm
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - mb3_timers_interrupt
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_0
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_1
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_2
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_3
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_4
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_5
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - uartlite
+Adding component instance block -- xilinx.com:ip:xadc_wiz:3.3 - xadc
+WARNING: [BD 41-1731] Type mismatch between connected pins: /iop_arduino/clk_100M(clk) and /iop_arduino/dff_en_reset_vector_0/clk(undef)
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - iop_interrupts
+Adding component instance block -- xilinx.com:user:dff_en_reset_vector:1.0 - dff_en_reset_vector_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - gpio
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - iic
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - intc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - intr
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - intr_concat
+Adding component instance block -- xilinx.com:user:io_switch:1.1 - io_switch
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - lmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - logic_1
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - mb
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - mb_bram_ctrl
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - spi
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer
+WARNING: [BD 41-1731] Type mismatch between connected pins: /iop_pmoda/clk_100M(clk) and /iop_pmoda/dff_en_reset_vector_0/clk(undef)
+Adding component instance block -- xilinx.com:user:dff_en_reset_vector:1.0 - dff_en_reset_vector_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - gpio
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - iic
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - intc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - intr
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - intr_concat
+Adding component instance block -- xilinx.com:user:io_switch:1.1 - io_switch
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - lmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - logic_1
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - mb
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - mb_bram_ctrl
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - spi
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer
+WARNING: [BD 41-1731] Type mismatch between connected pins: /iop_pmodb/clk_100M(clk) and /iop_pmodb/dff_en_reset_vector_0/clk(undef)
+Adding component instance block -- xilinx.com:user:dff_en_reset_vector:1.0 - dff_en_reset_vector_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - iic_0
+Adding component instance block -- xilinx.com:ip:axi_iic:2.0 - iic_1
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - intc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - intr
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - intr_concat
+Adding component instance block -- xilinx.com:user:io_switch:1.1 - io_switch
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - lmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - logic_1
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - mb
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - mb_bram_ctrl
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m08_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m09_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m10_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m11_regslice
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - rpi_gpio
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_1_100M
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - spi_0
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - spi_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - mb4_timer_pwm
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - mb4_timers_interrupt
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_0
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - timer_1
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - uartlite
+WARNING: [BD 41-1731] Type mismatch between connected pins: /iop_rpi/clk_100M(clk) and /iop_rpi/dff_en_reset_vector_0/clk(undef)
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - leds_gpio
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - logic_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_arduino_intr_ack
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_arduino_reset
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_pmoda_intr_ack
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_pmoda_reset
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_pmodb_intr_ack
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_pmodb_reset
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_rpi_intr_ack
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - mb_iop_rpi_reset
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - pmoda_rp_pin_sel
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - ps7_0
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - rgbleds_gpio
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_fclk0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_fclk1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_fclk3
+Adding component instance block -- xilinx.com:user:interface_slice:1.0 - slice_pmodb_gpio
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - switches_gpio
+Adding component instance block -- xilinx.com:ip:axi_intc:4.1 - system_interrupts
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - constant_tkeep_tstrb
+Adding component instance block -- xilinx.com:hls:trace_cntrl_64:1.4 - trace_cntrl_64_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - constant_tkeep_tstrb
+Adding component instance block -- xilinx.com:hls:trace_cntrl_32:1.4 - trace_cntrl_32_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m01_regslice
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m02_regslice
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m03_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m04_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m05_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m06_regslice
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m07_regslice
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m08_regslice
+Adding component instance block -- xilinx.com:ip:axi_register_slice:2.1 - m09_regslice
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma
+Adding component instance block -- xilinx.com:ip:axis_register_slice:1.1 - axis_register_slice_0
+Adding component instance block -- xilinx.com:hls:color_convert:1.0 - color_convert
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_hdmiin
+Adding component instance block -- xilinx.com:user:color_swap:1.1 - color_swap_0
+Adding component instance block -- digilentinc.com:ip:dvi2rgb:1.7 - dvi2rgb_0
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - vtc_in
+Adding component instance block -- xilinx.com:hls:pixel_pack:1.0 - pixel_pack
+Adding component instance block -- xilinx.com:ip:axis_register_slice:1.1 - axis_register_slice_0
+Adding component instance block -- xilinx.com:hls:color_convert:1.0 - color_convert
+Adding component instance block -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk
+Adding component instance block -- xilinx.com:user:color_swap:1.1 - color_swap_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - hdmi_out_hpd_video
+Adding component instance block -- digilentinc.com:ip:rgb2dvi:1.2 - rgb2dvi_0
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - vtc_out
+WARNING: [BD 41-1731] Type mismatch between connected pins: /video/hdmi_out/frontend/axi_dynclk/LOCKED_O(undef) and /video/hdmi_out/frontend/rgb2dvi_0/aRst_n(rst)
+Adding component instance block -- xilinx.com:hls:pixel_unpack:1.0 - pixel_unpack
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_pixelclk
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:user:wire_distributor:1.0 - collector_pmoda_rpi
+Adding component instance block -- xilinx.com:user:wire_distributor:1.0 - collector_rpi_27_8
+Adding component instance block -- xilinx.com:user:wire_distributor:1.0 - distributor_pmoda
+Adding component instance block -- xilinx.com:user:wire_distributor:1.0 - distributor_rpi
+Adding component instance block -- xilinx.com:user:mux_vector:1.0 - pmoda_rpi_o_sel
+Adding component instance block -- xilinx.com:user:mux_vector:1.0 - pmoda_rpi_t_sel
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - rpi_i_27_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - pmoda_rpi_1_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - pmoda_rpi_3_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - pmoda_rpi_5_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - pmoda_rpi_7_6
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - rpi2pmoda
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_o_27_8
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - rpi2pmoda
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_1_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_3_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_5_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_7_6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_t_27_8
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - rpi2pmoda
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_1_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_3_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_5_4
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - rpi_7_6
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Successfully read diagram <base> from BD file <C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/base.bd>
+open_bd_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 2214.945 ; gain = 0.000
+create_peripheral xilinx.com user sad 1.0 -dir C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:sad:1.0]
+generate_peripheral -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:sad:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:sad:1.0]
+set_property  ip_repo_paths  {C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/../ip_repo/sad_1.0 C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2298.449 ; gain = 83.504
+ipx::edit_ip_in_project -upgrade true -name edit_sad_v1_0 -directory C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/../ip_repo c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/dhire/onedrive/documents/school/ee382n_adv_micro/ov7670_pynq/boards/pynq-z2/base/ip_repo'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+create_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 2866.414 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0/hdl/sad_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0/hdl/sad_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 2866.414 ; gain = 0.000
+update_compile_order -fileset sources_1

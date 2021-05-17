@@ -1,0 +1,774 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 21604
+License: Customer
+
+Current time: 	Sun May 16 22:01:47 CDT 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 3200x1800
+Screen resolution (DPI): 175
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=21
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dhire
+User home directory: C:/Users/dhire
+User working directory: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.1
+RDI_DATADIR: C:/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/dhire/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/dhire/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/dhire/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/vivado.log
+Vivado journal file location: 	C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/vivado.jou
+Engine tmp dir: 	C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/.Xil/Vivado-21604-DESKTOP-I57GAPL
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	155 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,007 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1948 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 100 MB (+102338kb) [00:00:22]
+// [Engine Memory]: 1,007 MB (+903997kb) [00:00:22]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\dhire\OneDrive\Documents\School\EE382N_Adv_Micro\OV7670_PYNQ\boards\Pynq-Z2\base\base\base.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,007 MB. GUI used memory: 73 MB. Current time: 5/16/21, 10:01:49 PM CDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,146 MB. GUI used memory: 84 MB. Current time: 5/16/21, 10:02:08 PM CDT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,198 MB. GUI used memory: 82 MB. Current time: 5/16/21, 10:02:23 PM CDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,265 MB. GUI used memory: 82 MB. Current time: 5/16/21, 10:02:43 PM CDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 142 MB (+38408kb) [00:01:39]
+// [Engine Memory]: 1,323 MB (+279053kb) [00:01:39]
+// [GUI Memory]: 186 MB (+39422kb) [00:01:52]
+// [Engine Memory]: 1,394 MB (+5338kb) [00:01:52]
+// [GUI Memory]: 197 MB (+1202kb) [00:01:54]
+// [Engine Memory]: 1,470 MB (+5972kb) [00:01:55]
+// [GUI Memory]: 213 MB (+6435kb) [00:01:55]
+// [GUI Memory]: 225 MB (+1397kb) [00:01:56]
+// [Engine Memory]: 1,544 MB (+1108kb) [00:01:57]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3003 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  26439 ms.
+// Tcl Message: open_project C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base' INFO: [Project 1-313] Project file moved from 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.ip_user_files'; using path 'C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.ip_user_files' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,557 MB. GUI used memory: 170 MB. Current time: 5/16/21, 10:03:28 PM CDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4168 ms. Increasing delay to 4000 ms.
+// [Engine Memory]: 1,622 MB (+614kb) [00:02:07]
+// [GUI Memory]: 246 MB (+9894kb) [00:02:18]
+// [Engine Memory]: 1,907 MB (+213143kb) [00:02:18]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8731 ms. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5446 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:02:09 ; elapsed = 00:01:45 . Memory (MB): peak = 1660.430 ; gain = 637.105 
+// Project name: base; location: C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bz (cs)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3546 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2427 ms. Increasing delay to 7281 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3572 ms. Increasing delay to 7000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 831ms to process. Increasing delay to 4000 ms.
+// Elapsed time: 124 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cs)
+// PAPropertyPanels.initPanels (base.xdc) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, base.xdc]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, base.xdc]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// [Engine Memory]: 2,013 MB (+11503kb) [00:04:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,013 MB. GUI used memory: 194 MB. Current time: 5/16/21, 10:05:59 PM CDT
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bz (cs):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/base.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,040 MB. GUI used memory: 189 MB. Current time: 5/16/21, 10:06:39 PM CDT
+// Tcl Message: Successfully read diagram <base> from BD file <C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/base.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (base.xdc) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  7159 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// Elapsed time: 21 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1769ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1769 ms.
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 2214.945 ; gain = 0.000 
+// 'bJ' command handler elapsed time: 24 seconds
+dismissDialog("Open Block Design"); // bz (cs)
+// [GUI Memory]: 262 MB (+4193kb) [00:06:09]
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "base.xdc", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // m (l, cs)
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // E (g, cs)
+// Elapsed time: 13 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 867, 87, 2029, 882, false, false, false, true, false); // hq (m, cs) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // af (ao, cs)
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // ai (ao, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,101 MB. GUI used memory: 202 MB. Current time: 5/16/21, 10:08:29 PM CDT
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1047 ms.
+// bz (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+dismissDialog("Open IP Catalog"); // bz (SwingUtilities.SharedOwnerFrame)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3786 ms. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6184 ms. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3763 ms. Increasing delay to 11289 ms.
+// Elapsed time: 41 seconds
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // W
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ai (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aa (q, cs)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cs): Create and Package New IP: addNotify
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1360 ms. Decreasing delay to 3360 ms.
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+// Elapsed time: 10 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 11 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "sad"); // ac (Q)
+// Elapsed time: 26 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "SAD Algorithm implementation"); // ac (Q)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2075 ms. Increasing delay to 6225 ms.
+// [GUI Memory]: 276 MB (+1576kb) [00:09:50]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5649 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3847 ms. Increasing delay to 11541 ms.
+// Elapsed time: 159 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1091 ms. Decreasing delay to 3091 ms.
+// Elapsed time: 21 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_EDIT_IP, "Edit IP"); // a (Q)
+selectButton("FINISH", "Finish"); // JButton (j, Q)
+// 'q' command handler elapsed time: 244 seconds
+dismissDialog("Create and Package New IP"); // Q (cs)
+// Tcl Message: create_peripheral xilinx.com user sad 1.0 -dir C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/../ip_repo 
+// Tcl Message: add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:sad:1.0] 
+// bz (cs):  Create Peripheral IP : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -bfm_example_design -debug_hw_example_design [ipx::find_open_core xilinx.com:user:sad:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core xilinx.com:user:sad:1.0] 
+// Tcl Message: set_property  ip_repo_paths  {C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/../ip_repo/sad_1.0 C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip} [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,116 MB (+2382kb) [00:13:01]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: BDCELL_LOCK_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  6113 ms.
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip'. 
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 2,189 MB. GUI used memory: 208 MB. Current time: 5/16/21, 10:14:38 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  6522 ms.
+// [Engine Memory]: 2,331 MB (+114986kb) [00:13:21]
+// Tcl Message: update_ip_catalog: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2298.449 ; gain = 83.504 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2824 ms. Increasing delay to 8472 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  9625 ms.
+// TclEventType: FILE_SET_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,399 MB. GUI used memory: 210 MB. Current time: 5/16/21, 10:14:55 PM CDT
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name edit_sad_v1_0 -directory C:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/base/../ip_repo c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0/component.xml 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'c:/users/dhire/onedrive/documents/school/ee382n_adv_micro/ov7670_pynq/boards/pynq-z2/base/ip_repo' 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 2997ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2997 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  5982 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:14 . Memory (MB): peak = 2866.414 ; gain = 0.000 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/Pynq-Z2/base/ip_repo/sad_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/OV7670_PYNQ/boards/ip'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  3068 ms.
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 2866.414 ; gain = 0.000 
+// Elapsed time: 97 seconds
+dismissDialog("Create Peripheral IP"); // bz (cs)
+// [GUI Memory]: 292 MB (+1341kb) [00:13:53]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sad_v1_0 (sad_v1_0.v)]", 1); // B (F, cs)
+// PAPropertyPanels.initPanels (sad_v1_0.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sad_v1_0 (sad_v1_0.v)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sad_v1_0 (sad_v1_0.v)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sad_v1_0 (sad_v1_0.v)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sad_v1_0 (sad_v1_0.v), sad_v1_0_S00_AXI_inst : sad_v1_0_S00_AXI (sad_v1_0_S00_AXI.v)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sad_v1_0 (sad_v1_0.v), sad_v1_0_S00_AXI_inst : sad_v1_0_S00_AXI (sad_v1_0_S00_AXI.v)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7431 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4491 ms. Increasing delay to 13473 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1839 ms. Decreasing delay to 3839 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 7202 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6825 ms. Increasing delay to 20475 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5121 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1790 ms. Decreasing delay to 3790 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2298 ms. Increasing delay to 6894 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4592 ms. Increasing delay to 13776 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 5799 ms. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1960 ms. Decreasing delay to 3960 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3246 ms. Increasing delay to 9738 ms.
