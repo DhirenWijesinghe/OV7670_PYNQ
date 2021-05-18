@@ -15,7 +15,17 @@
 	)
 	(
 		// Users to add ports here
-
+        output wire [31:0] 			      l_addr_BRAM,
+        output wire [31:0] 			      r_addr_BRAM,
+        output wire 			          clk_BRAM,
+        output wire [31:0] 			      l_dout_BRAM,
+        output wire [31:0] 			      r_dout_BRAM,
+        input wire [31:0] 			      l_din_BRAM,
+        input wire [31:0] 			      r_din_BRAM,
+        output wire 			          en_BRAM,
+        output wire 			          rst_BRAM,
+        output wire [3:0] 			      we_BRAM,
+        //output wire 			          interrupt_out, 
 		// User ports ends
 		// Do not modify the ports beyond this line
 
