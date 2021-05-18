@@ -1,8 +1,8 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-//Date        : Thu May 13 14:39:26 2021
-//Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
+//Date        : Mon May 17 21:26:21 2021
+//Host        : LAPTOP-HM31IF3R running 64-bit major release  (build 9200)
 //Command     : generate_target base_wrapper.bd
 //Design      : base_wrapper
 //Purpose     : IP block netlist
@@ -144,7 +144,7 @@ module base_wrapper
   output [3:0]leds_4bits_tri_o;
   output lrclk;
   inout [7:0]pmoda_rpi_gpio_tri_io;
-  inout [7:1]pmodb_gpio_tri_io;
+  inout [7:0]pmodb_gpio_tri_io;
   output [5:0]rgbleds_6bits_tri_o;
   inout [19:0]rpi_gpio_tri_io;
   input sdata_i;
@@ -363,7 +363,7 @@ module base_wrapper
   wire [5:5]pmodb_gpio_tri_i_5;
   wire [6:6]pmodb_gpio_tri_i_6;
   wire [7:7]pmodb_gpio_tri_i_7;
-//  wire [0:0]pmodb_gpio_tri_io_0;
+  wire [0:0]pmodb_gpio_tri_io_0;
   wire [1:1]pmodb_gpio_tri_io_1;
   wire [2:2]pmodb_gpio_tri_io_2;
   wire [3:3]pmodb_gpio_tri_io_3;
@@ -761,11 +761,11 @@ module base_wrapper
         .IO(pmoda_rpi_gpio_tri_io[7]),
         .O(pmoda_rpi_gpio_tri_i_7),
         .T(pmoda_rpi_gpio_tri_t_7));
-//  IOBUF pmodb_gpio_tri_iobuf_0
-//       (.I(pmodb_gpio_tri_o_0),
-//        .IO(pmodb_gpio_tri_io[0]),
-//        .O(pmodb_gpio_tri_i_0),
-//        .T(pmodb_gpio_tri_t_0));
+  IOBUF pmodb_gpio_tri_iobuf_0
+       (.I(pmodb_gpio_tri_o_0),
+        .IO(pmodb_gpio_tri_io[0]),
+        .O(pmodb_gpio_tri_i_0),
+        .T(pmodb_gpio_tri_t_0));
   IOBUF pmodb_gpio_tri_iobuf_1
        (.I(pmodb_gpio_tri_o_1),
         .IO(pmodb_gpio_tri_io[1]),
