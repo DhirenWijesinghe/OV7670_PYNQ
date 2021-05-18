@@ -63,10 +63,10 @@ base_xbar_0_sc::base_xbar_0_sc(const sc_core::sc_module_name& nm) : sc_core::sc_
     xsc::common_cpp::properties model_param_props;
     model_param_props.addLong("C_NUM_SLAVE_SLOTS", "4");
     model_param_props.addLong("C_NUM_MASTER_SLOTS", "1");
-    model_param_props.addLong("C_AXI_ID_WIDTH", "1");
+    model_param_props.addLong("C_AXI_ID_WIDTH", "2");
     model_param_props.addLong("C_AXI_ADDR_WIDTH", "32");
     model_param_props.addLong("C_AXI_DATA_WIDTH", "32");
-    model_param_props.addLong("C_AXI_PROTOCOL", "2");
+    model_param_props.addLong("C_AXI_PROTOCOL", "0");
     model_param_props.addLong("C_NUM_ADDR_RANGES", "1");
     model_param_props.addLong("C_AXI_SUPPORTS_USER_SIGNALS", "0");
     model_param_props.addLong("C_AXI_AWUSER_WIDTH", "1");

@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Thu May 13 16:06:31 2021
--- Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_auto_us_0/base_auto_us_0_sim_netlist.vhdl
+-- Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+-- Date        : Mon May 17 22:09:58 2021
+-- Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim -rename_top base_auto_us_0 -prefix
+--               base_auto_us_0_ base_auto_us_0_sim_netlist.vhdl
 -- Design      : base_auto_us_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -61,8 +61,6 @@ entity base_auto_us_0_axi_dwidth_converter_v2_1_21_w_upsizer is
     D : in STD_LOGIC_VECTOR ( 2 downto 0 );
     \USE_RTL_CURR_WORD.current_word_q_reg[2]_1\ : in STD_LOGIC_VECTOR ( 2 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_axi_dwidth_converter_v2_1_21_w_upsizer : entity is "axi_dwidth_converter_v2_1_21_w_upsizer";
 end base_auto_us_0_axi_dwidth_converter_v2_1_21_w_upsizer;
 
 architecture STRUCTURE of base_auto_us_0_axi_dwidth_converter_v2_1_21_w_upsizer is
@@ -2877,8 +2875,6 @@ entity base_auto_us_0_axi_register_slice_v2_1_21_axic_register_slice is
     SR : in STD_LOGIC_VECTOR ( 0 to 0 );
     D : in STD_LOGIC_VECTOR ( 60 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_axi_register_slice_v2_1_21_axic_register_slice : entity is "axi_register_slice_v2_1_21_axic_register_slice";
 end base_auto_us_0_axi_register_slice_v2_1_21_axic_register_slice;
 
 architecture STRUCTURE of base_auto_us_0_axi_register_slice_v2_1_21_axic_register_slice is
@@ -4504,8 +4500,6 @@ entity base_auto_us_0_generic_baseblocks_v2_1_0_command_fifo is
     m_axi_awready : in STD_LOGIC;
     \in\ : in STD_LOGIC_VECTOR ( 27 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_generic_baseblocks_v2_1_0_command_fifo : entity is "generic_baseblocks_v2_1_0_command_fifo";
 end base_auto_us_0_generic_baseblocks_v2_1_0_command_fifo;
 
 architecture STRUCTURE of base_auto_us_0_generic_baseblocks_v2_1_0_command_fifo is
@@ -6101,8 +6095,6 @@ entity base_auto_us_0_axi_dwidth_converter_v2_1_21_a_upsizer is
     m_axi_awready : in STD_LOGIC;
     \in\ : in STD_LOGIC_VECTOR ( 27 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_axi_dwidth_converter_v2_1_21_a_upsizer : entity is "axi_dwidth_converter_v2_1_21_a_upsizer";
 end base_auto_us_0_axi_dwidth_converter_v2_1_21_a_upsizer;
 
 architecture STRUCTURE of base_auto_us_0_axi_dwidth_converter_v2_1_21_a_upsizer is
@@ -6195,8 +6187,6 @@ entity base_auto_us_0_axi_register_slice_v2_1_21_axi_register_slice is
     SR : in STD_LOGIC_VECTOR ( 0 to 0 );
     D : in STD_LOGIC_VECTOR ( 60 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_axi_register_slice_v2_1_21_axi_register_slice : entity is "axi_register_slice_v2_1_21_axi_register_slice";
 end base_auto_us_0_axi_register_slice_v2_1_21_axi_register_slice;
 
 architecture STRUCTURE of base_auto_us_0_axi_register_slice_v2_1_21_axi_register_slice is
@@ -6249,8 +6239,6 @@ entity base_auto_us_0_axi_dwidth_converter_v2_1_21_axi_upsizer is
     s_axi_wvalid : in STD_LOGIC;
     m_axi_awready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_axi_dwidth_converter_v2_1_21_axi_upsizer : entity is "axi_dwidth_converter_v2_1_21_axi_upsizer";
 end base_auto_us_0_axi_dwidth_converter_v2_1_21_axi_upsizer;
 
 architecture STRUCTURE of base_auto_us_0_axi_dwidth_converter_v2_1_21_axi_upsizer is
@@ -6613,8 +6601,6 @@ entity base_auto_us_0_axi_dwidth_converter_v2_1_21_top is
   attribute C_S_AXI_ID_WIDTH of base_auto_us_0_axi_dwidth_converter_v2_1_21_top : entity is 1;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of base_auto_us_0_axi_dwidth_converter_v2_1_21_top : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of base_auto_us_0_axi_dwidth_converter_v2_1_21_top : entity is "axi_dwidth_converter_v2_1_21_top";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of base_auto_us_0_axi_dwidth_converter_v2_1_21_top : entity is 1;
   attribute P_AXI4 : integer;
@@ -6843,7 +6829,7 @@ entity base_auto_us_0 is
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of base_auto_us_0 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of base_auto_us_0 : entity is "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1";
+  attribute X_CORE_INFO of base_auto_us_0 : entity is "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1.1";
 end base_auto_us_0;
 
 architecture STRUCTURE of base_auto_us_0 is

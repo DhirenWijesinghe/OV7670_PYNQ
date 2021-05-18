@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Thu May 13 15:15:50 2021
--- Host        : DESKTOP-I57GAPL running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2020.1.1 (win64) Build 2960000 Wed Aug  5 22:57:20 MDT 2020
+-- Date        : Tue May 18 04:46:14 2021
+-- Host        : DESKTOP-LL0QRS1 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Users/dhire/OneDrive/Documents/School/EE382N_Adv_Micro/PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_ps7_0_0/base_ps7_0_0_sim_netlist.vhdl
+--               c:/Users/cl/Desktop/OV7670_PYNQ/boards/Pynq-Z2/base/base/base.srcs/sources_1/bd/base/ip/base_ps7_0_0/base_ps7_0_0_sim_netlist.vhdl
 -- Design      : base_ps7_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -807,17 +807,17 @@ entity base_ps7_0_0_processing_system7_v5_5_processing_system7 is
   attribute C_USE_S_AXI_HP0 : integer;
   attribute C_USE_S_AXI_HP0 of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_USE_S_AXI_HP1 : integer;
-  attribute C_USE_S_AXI_HP1 of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_HP1 of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_USE_S_AXI_HP2 : integer;
   attribute C_USE_S_AXI_HP2 of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute C_USE_S_AXI_HP3 : integer;
-  attribute C_USE_S_AXI_HP3 of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
+  attribute C_USE_S_AXI_HP3 of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 1;
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is "base_ps7_0_0.hwdef";
   attribute ORIG_REF_NAME : string;
   attribute ORIG_REF_NAME of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is "processing_system7_v5_5_processing_system7";
   attribute POWER : string;
-  attribute POWER of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={I2C} ioStandard={} bidis={0} ioBank={} clockFreq={108.333336} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS18} bidis={3} ioBank={Vcco_p1} clockFreq={108.333336} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS18} bidis={7} ioBank={Vcco_p1} clockFreq={50.000000} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS18} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={GigE} ioStandard={LVCMOS18} bidis={14} ioBank={Vcco_p1} clockFreq={125.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1000.000} /><AXI interface={S_AXI_HP2} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={64} clockFreq={142} usageRate={0.5} /><AXI interface={S_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP1} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} />/>";
+  attribute POWER of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={I2C} ioStandard={} bidis={0} ioBank={} clockFreq={108.333336} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS18} bidis={3} ioBank={Vcco_p1} clockFreq={108.333336} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS18} bidis={7} ioBank={Vcco_p1} clockFreq={50.000000} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS18} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={GigE} ioStandard={LVCMOS18} bidis={14} ioBank={Vcco_p1} clockFreq={125.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1000.000} /><AXI interface={S_AXI_HP3} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP2} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP1} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={64} clockFreq={142} usageRate={0.5} /><AXI interface={S_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP1} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} />/>";
   attribute USE_TRACE_DATA_EDGE_DETECTOR : integer;
   attribute USE_TRACE_DATA_EDGE_DETECTOR of base_ps7_0_0_processing_system7_v5_5_processing_system7 : entity is 0;
 end base_ps7_0_0_processing_system7_v5_5_processing_system7;
@@ -3120,6 +3120,51 @@ entity base_ps7_0_0 is
     S_AXI_HP0_WID : in STD_LOGIC_VECTOR ( 5 downto 0 );
     S_AXI_HP0_WDATA : in STD_LOGIC_VECTOR ( 63 downto 0 );
     S_AXI_HP0_WSTRB : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    S_AXI_HP1_ARREADY : out STD_LOGIC;
+    S_AXI_HP1_AWREADY : out STD_LOGIC;
+    S_AXI_HP1_BVALID : out STD_LOGIC;
+    S_AXI_HP1_RLAST : out STD_LOGIC;
+    S_AXI_HP1_RVALID : out STD_LOGIC;
+    S_AXI_HP1_WREADY : out STD_LOGIC;
+    S_AXI_HP1_BRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP1_RRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP1_BID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP1_RID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP1_RDATA : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    S_AXI_HP1_RCOUNT : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    S_AXI_HP1_WCOUNT : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    S_AXI_HP1_RACOUNT : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP1_WACOUNT : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP1_ACLK : in STD_LOGIC;
+    S_AXI_HP1_ARVALID : in STD_LOGIC;
+    S_AXI_HP1_AWVALID : in STD_LOGIC;
+    S_AXI_HP1_BREADY : in STD_LOGIC;
+    S_AXI_HP1_RDISSUECAP1_EN : in STD_LOGIC;
+    S_AXI_HP1_RREADY : in STD_LOGIC;
+    S_AXI_HP1_WLAST : in STD_LOGIC;
+    S_AXI_HP1_WRISSUECAP1_EN : in STD_LOGIC;
+    S_AXI_HP1_WVALID : in STD_LOGIC;
+    S_AXI_HP1_ARBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP1_ARLOCK : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP1_ARSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP1_AWBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP1_AWLOCK : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP1_AWSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP1_ARPROT : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP1_AWPROT : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP1_ARADDR : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    S_AXI_HP1_AWADDR : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    S_AXI_HP1_ARCACHE : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP1_ARLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP1_ARQOS : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP1_AWCACHE : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP1_AWLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP1_AWQOS : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP1_ARID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP1_AWID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP1_WID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP1_WDATA : in STD_LOGIC_VECTOR ( 63 downto 0 );
+    S_AXI_HP1_WSTRB : in STD_LOGIC_VECTOR ( 7 downto 0 );
     S_AXI_HP2_ARREADY : out STD_LOGIC;
     S_AXI_HP2_AWREADY : out STD_LOGIC;
     S_AXI_HP2_BVALID : out STD_LOGIC;
@@ -3165,6 +3210,51 @@ entity base_ps7_0_0 is
     S_AXI_HP2_WID : in STD_LOGIC_VECTOR ( 5 downto 0 );
     S_AXI_HP2_WDATA : in STD_LOGIC_VECTOR ( 63 downto 0 );
     S_AXI_HP2_WSTRB : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    S_AXI_HP3_ARREADY : out STD_LOGIC;
+    S_AXI_HP3_AWREADY : out STD_LOGIC;
+    S_AXI_HP3_BVALID : out STD_LOGIC;
+    S_AXI_HP3_RLAST : out STD_LOGIC;
+    S_AXI_HP3_RVALID : out STD_LOGIC;
+    S_AXI_HP3_WREADY : out STD_LOGIC;
+    S_AXI_HP3_BRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP3_RRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP3_BID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP3_RID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP3_RDATA : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    S_AXI_HP3_RCOUNT : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    S_AXI_HP3_WCOUNT : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    S_AXI_HP3_RACOUNT : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP3_WACOUNT : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP3_ACLK : in STD_LOGIC;
+    S_AXI_HP3_ARVALID : in STD_LOGIC;
+    S_AXI_HP3_AWVALID : in STD_LOGIC;
+    S_AXI_HP3_BREADY : in STD_LOGIC;
+    S_AXI_HP3_RDISSUECAP1_EN : in STD_LOGIC;
+    S_AXI_HP3_RREADY : in STD_LOGIC;
+    S_AXI_HP3_WLAST : in STD_LOGIC;
+    S_AXI_HP3_WRISSUECAP1_EN : in STD_LOGIC;
+    S_AXI_HP3_WVALID : in STD_LOGIC;
+    S_AXI_HP3_ARBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP3_ARLOCK : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP3_ARSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP3_AWBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP3_AWLOCK : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    S_AXI_HP3_AWSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP3_ARPROT : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP3_AWPROT : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    S_AXI_HP3_ARADDR : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    S_AXI_HP3_AWADDR : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    S_AXI_HP3_ARCACHE : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP3_ARLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP3_ARQOS : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP3_AWCACHE : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP3_AWLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP3_AWQOS : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    S_AXI_HP3_ARID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP3_AWID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP3_WID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    S_AXI_HP3_WDATA : in STD_LOGIC_VECTOR ( 63 downto 0 );
+    S_AXI_HP3_WSTRB : in STD_LOGIC_VECTOR ( 7 downto 0 );
     IRQ_F2P : in STD_LOGIC_VECTOR ( 15 downto 0 );
     FCLK_CLK0 : out STD_LOGIC;
     FCLK_CLK1 : out STD_LOGIC;
@@ -3200,7 +3290,7 @@ entity base_ps7_0_0 is
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of base_ps7_0_0 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of base_ps7_0_0 : entity is "processing_system7_v5_5_processing_system7,Vivado 2020.1";
+  attribute X_CORE_INFO of base_ps7_0_0 : entity is "processing_system7_v5_5_processing_system7,Vivado 2020.1.1";
 end base_ps7_0_0;
 
 architecture STRUCTURE of base_ps7_0_0 is
@@ -3343,20 +3433,8 @@ architecture STRUCTURE of base_ps7_0_0 is
   signal NLW_inst_S_AXI_GP1_WREADY_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_S_AXI_HP0_ARESETN_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_S_AXI_HP1_ARESETN_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP1_ARREADY_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP1_AWREADY_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP1_BVALID_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP1_RLAST_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP1_RVALID_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP1_WREADY_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_S_AXI_HP2_ARESETN_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_S_AXI_HP3_ARESETN_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP3_ARREADY_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP3_AWREADY_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP3_BVALID_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP3_RLAST_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP3_RVALID_UNCONNECTED : STD_LOGIC;
-  signal NLW_inst_S_AXI_HP3_WREADY_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_TRACE_CLK_OUT_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_TRACE_CTL_UNCONNECTED : STD_LOGIC;
   signal NLW_inst_TTC0_WAVE0_OUT_UNCONNECTED : STD_LOGIC;
@@ -3398,24 +3476,6 @@ architecture STRUCTURE of base_ps7_0_0 is
   signal NLW_inst_S_AXI_GP1_RDATA_UNCONNECTED : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal NLW_inst_S_AXI_GP1_RID_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
   signal NLW_inst_S_AXI_GP1_RRESP_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  signal NLW_inst_S_AXI_HP1_BID_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
-  signal NLW_inst_S_AXI_HP1_BRESP_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  signal NLW_inst_S_AXI_HP1_RACOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 2 downto 0 );
-  signal NLW_inst_S_AXI_HP1_RCOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
-  signal NLW_inst_S_AXI_HP1_RDATA_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 0 );
-  signal NLW_inst_S_AXI_HP1_RID_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
-  signal NLW_inst_S_AXI_HP1_RRESP_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  signal NLW_inst_S_AXI_HP1_WACOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
-  signal NLW_inst_S_AXI_HP1_WCOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
-  signal NLW_inst_S_AXI_HP3_BID_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
-  signal NLW_inst_S_AXI_HP3_BRESP_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  signal NLW_inst_S_AXI_HP3_RACOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 2 downto 0 );
-  signal NLW_inst_S_AXI_HP3_RCOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
-  signal NLW_inst_S_AXI_HP3_RDATA_UNCONNECTED : STD_LOGIC_VECTOR ( 63 downto 0 );
-  signal NLW_inst_S_AXI_HP3_RID_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
-  signal NLW_inst_S_AXI_HP3_RRESP_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  signal NLW_inst_S_AXI_HP3_WACOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 5 downto 0 );
-  signal NLW_inst_S_AXI_HP3_WCOUNT_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal NLW_inst_TRACE_DATA_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal NLW_inst_USB1_PORT_INDCTL_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
   attribute C_DM_WIDTH : integer;
@@ -3523,15 +3583,15 @@ architecture STRUCTURE of base_ps7_0_0 is
   attribute C_USE_S_AXI_HP0 : integer;
   attribute C_USE_S_AXI_HP0 of inst : label is 1;
   attribute C_USE_S_AXI_HP1 : integer;
-  attribute C_USE_S_AXI_HP1 of inst : label is 0;
+  attribute C_USE_S_AXI_HP1 of inst : label is 1;
   attribute C_USE_S_AXI_HP2 : integer;
   attribute C_USE_S_AXI_HP2 of inst : label is 1;
   attribute C_USE_S_AXI_HP3 : integer;
-  attribute C_USE_S_AXI_HP3 of inst : label is 0;
+  attribute C_USE_S_AXI_HP3 of inst : label is 1;
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of inst : label is "base_ps7_0_0.hwdef";
   attribute POWER : string;
-  attribute POWER of inst : label is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={I2C} ioStandard={} bidis={0} ioBank={} clockFreq={108.333336} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS18} bidis={3} ioBank={Vcco_p1} clockFreq={108.333336} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS18} bidis={7} ioBank={Vcco_p1} clockFreq={50.000000} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS18} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={GigE} ioStandard={LVCMOS18} bidis={14} ioBank={Vcco_p1} clockFreq={125.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1000.000} /><AXI interface={S_AXI_HP2} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={64} clockFreq={142} usageRate={0.5} /><AXI interface={S_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP1} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} />/>";
+  attribute POWER of inst : label is "<PROCESSOR name={system} numA9Cores={2} clockFreq={650} load={0.5} /><MEMORY name={code} memType={DDR3} dataWidth={16} clockFreq={525} readRate={0.5} writeRate={0.5} /><IO interface={I2C} ioStandard={} bidis={0} ioBank={} clockFreq={108.333336} usageRate={0.5} /><IO interface={I2C} ioStandard={LVCMOS18} bidis={3} ioBank={Vcco_p1} clockFreq={108.333336} usageRate={0.5} /><IO interface={UART} ioStandard={LVCMOS33} bidis={2} ioBank={Vcco_p0} clockFreq={100.000000} usageRate={0.5} /><IO interface={SD} ioStandard={LVCMOS18} bidis={7} ioBank={Vcco_p1} clockFreq={50.000000} usageRate={0.5} /><IO interface={USB} ioStandard={LVCMOS18} bidis={12} ioBank={Vcco_p1} clockFreq={60} usageRate={0.5} /><IO interface={GigE} ioStandard={LVCMOS18} bidis={14} ioBank={Vcco_p1} clockFreq={125.000000} usageRate={0.5} /><IO interface={QSPI} ioStandard={LVCMOS33} bidis={7} ioBank={Vcco_p0} clockFreq={200} usageRate={0.5} /><PLL domain={Processor} vco={1300.000} /><PLL domain={Memory} vco={1050.000} /><PLL domain={IO} vco={1000.000} /><AXI interface={S_AXI_HP3} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP2} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP1} dataWidth={64} clockFreq={100} usageRate={0.5} /><AXI interface={S_AXI_HP0} dataWidth={64} clockFreq={142} usageRate={0.5} /><AXI interface={S_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP1} dataWidth={32} clockFreq={100} usageRate={0.5} /><AXI interface={M_AXI_GP0} dataWidth={32} clockFreq={100} usageRate={0.5} />/>";
   attribute USE_TRACE_DATA_EDGE_DETECTOR : integer;
   attribute USE_TRACE_DATA_EDGE_DETECTOR of inst : label is 0;
   attribute X_INTERFACE_INFO : string;
@@ -3548,13 +3608,13 @@ architecture STRUCTURE of base_ps7_0_0 is
   attribute X_INTERFACE_INFO of DDR_WEB : signal is "xilinx.com:interface:ddrx:1.0 DDR WE_N";
   attribute X_INTERFACE_INFO of FCLK_CLK0 : signal is "xilinx.com:signal:clock:1.0 FCLK_CLK0 CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of FCLK_CLK0 : signal is "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of FCLK_CLK0 : signal is "XIL_INTERFACENAME FCLK_CLK0, FREQ_HZ 1e+08, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of FCLK_CLK1 : signal is "xilinx.com:signal:clock:1.0 FCLK_CLK1 CLK";
-  attribute X_INTERFACE_PARAMETER of FCLK_CLK1 : signal is "XIL_INTERFACENAME FCLK_CLK1, FREQ_HZ 142857132, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK1, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of FCLK_CLK1 : signal is "XIL_INTERFACENAME FCLK_CLK1, FREQ_HZ 1.42857e+08, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK1, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of FCLK_CLK2 : signal is "xilinx.com:signal:clock:1.0 FCLK_CLK2 CLK";
-  attribute X_INTERFACE_PARAMETER of FCLK_CLK2 : signal is "XIL_INTERFACENAME FCLK_CLK2, FREQ_HZ 200000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK2, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of FCLK_CLK2 : signal is "XIL_INTERFACENAME FCLK_CLK2, FREQ_HZ 2e+08, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK2, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of FCLK_CLK3 : signal is "xilinx.com:signal:clock:1.0 FCLK_CLK3 CLK";
-  attribute X_INTERFACE_PARAMETER of FCLK_CLK3 : signal is "XIL_INTERFACENAME FCLK_CLK3, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK3, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of FCLK_CLK3 : signal is "XIL_INTERFACENAME FCLK_CLK3, FREQ_HZ 1e+08, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK3, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of FCLK_RESET0_N : signal is "xilinx.com:signal:reset:1.0 FCLK_RESET0_N RST";
   attribute X_INTERFACE_PARAMETER of FCLK_RESET0_N : signal is "XIL_INTERFACENAME FCLK_RESET0_N, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of I2C1_SCL_I : signal is "xilinx.com:interface:iic:1.0 IIC_1 SCL_I";
@@ -3625,6 +3685,22 @@ architecture STRUCTURE of base_ps7_0_0 is
   attribute X_INTERFACE_INFO of S_AXI_HP0_WREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP0 WREADY";
   attribute X_INTERFACE_INFO of S_AXI_HP0_WRISSUECAP1_EN : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP0_FIFO_CTRL WRISSUECAPEN";
   attribute X_INTERFACE_INFO of S_AXI_HP0_WVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP0 WVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ACLK : signal is "xilinx.com:signal:clock:1.0 S_AXI_HP1_ACLK CLK";
+  attribute X_INTERFACE_PARAMETER of S_AXI_HP1_ACLK : signal is "XIL_INTERFACENAME S_AXI_HP1_ACLK, ASSOCIATED_BUSIF S_AXI_HP1, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_BREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 BREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_BVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 BVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RDISSUECAP1_EN : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP1_FIFO_CTRL RDISSUECAPEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RLAST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 RLAST";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 RREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 RVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WLAST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 WLAST";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 WREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WRISSUECAP1_EN : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP1_FIFO_CTRL WRISSUECAPEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 WVALID";
   attribute X_INTERFACE_INFO of S_AXI_HP2_ACLK : signal is "xilinx.com:signal:clock:1.0 S_AXI_HP2_ACLK CLK";
   attribute X_INTERFACE_PARAMETER of S_AXI_HP2_ACLK : signal is "XIL_INTERFACENAME S_AXI_HP2_ACLK, ASSOCIATED_BUSIF S_AXI_HP2, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK3, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of S_AXI_HP2_ARREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 ARREADY";
@@ -3641,6 +3717,22 @@ architecture STRUCTURE of base_ps7_0_0 is
   attribute X_INTERFACE_INFO of S_AXI_HP2_WREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 WREADY";
   attribute X_INTERFACE_INFO of S_AXI_HP2_WRISSUECAP1_EN : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP2_FIFO_CTRL WRISSUECAPEN";
   attribute X_INTERFACE_INFO of S_AXI_HP2_WVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 WVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ACLK : signal is "xilinx.com:signal:clock:1.0 S_AXI_HP3_ACLK CLK";
+  attribute X_INTERFACE_PARAMETER of S_AXI_HP3_ACLK : signal is "XIL_INTERFACENAME S_AXI_HP3_ACLK, ASSOCIATED_BUSIF S_AXI_HP3, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_BREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 BREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_BVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 BVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RDISSUECAP1_EN : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP3_FIFO_CTRL RDISSUECAPEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RLAST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 RLAST";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 RREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 RVALID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WLAST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 WLAST";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WREADY : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 WREADY";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WRISSUECAP1_EN : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP3_FIFO_CTRL WRISSUECAPEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WVALID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 WVALID";
   attribute X_INTERFACE_INFO of USB0_VBUS_PWRFAULT : signal is "xilinx.com:display_processing_system7:usbctrl:1.0 USBIND_0 VBUS_PWRFAULT";
   attribute X_INTERFACE_INFO of USB0_VBUS_PWRSELECT : signal is "xilinx.com:display_processing_system7:usbctrl:1.0 USBIND_0 VBUS_PWRSELECT";
   attribute X_INTERFACE_INFO of DDR_Addr : signal is "xilinx.com:interface:ddrx:1.0 DDR ADDR";
@@ -3767,7 +3859,38 @@ architecture STRUCTURE of base_ps7_0_0 is
   attribute X_INTERFACE_INFO of S_AXI_HP0_WDATA : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP0 WDATA";
   attribute X_INTERFACE_INFO of S_AXI_HP0_WID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP0 WID";
   attribute X_INTERFACE_INFO of S_AXI_HP0_WSTRB : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP0 WSTRB";
-  attribute X_INTERFACE_PARAMETER of S_AXI_HP0_WSTRB : signal is "XIL_INTERFACENAME S_AXI_HP0, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 64, PROTOCOL AXI3, FREQ_HZ 142857132, ID_WIDTH 6, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 16, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of S_AXI_HP0_WSTRB : signal is "XIL_INTERFACENAME S_AXI_HP0, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 64, PROTOCOL AXI3, FREQ_HZ 142857132, ID_WIDTH 6, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 1, MAX_BURST_LENGTH 16, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARADDR";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARBURST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARBURST";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARCACHE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARCACHE";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARLEN : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARLEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARLOCK : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARLOCK";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARPROT : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARPROT";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARQOS : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARQOS";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_ARSIZE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 ARSIZE";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWADDR";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWBURST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWBURST";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWCACHE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWCACHE";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWLEN : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWLEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWLOCK : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWLOCK";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWPROT : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWPROT";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWQOS : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWQOS";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_AWSIZE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 AWSIZE";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_BID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 BID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_BRESP : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 BRESP";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RACOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP1_FIFO_CTRL RACOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RCOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP1_FIFO_CTRL RCOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RDATA : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 RDATA";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 RID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_RRESP : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 RRESP";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WACOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP1_FIFO_CTRL WACOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WCOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP1_FIFO_CTRL WCOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WDATA : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 WDATA";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 WID";
+  attribute X_INTERFACE_INFO of S_AXI_HP1_WSTRB : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP1 WSTRB";
+  attribute X_INTERFACE_PARAMETER of S_AXI_HP1_WSTRB : signal is "XIL_INTERFACENAME S_AXI_HP1, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 64, PROTOCOL AXI3, FREQ_HZ 100000000, ID_WIDTH 6, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 8, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of S_AXI_HP2_ARADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 ARADDR";
   attribute X_INTERFACE_INFO of S_AXI_HP2_ARBURST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 ARBURST";
   attribute X_INTERFACE_INFO of S_AXI_HP2_ARCACHE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 ARCACHE";
@@ -3799,6 +3922,37 @@ architecture STRUCTURE of base_ps7_0_0 is
   attribute X_INTERFACE_INFO of S_AXI_HP2_WID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 WID";
   attribute X_INTERFACE_INFO of S_AXI_HP2_WSTRB : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP2 WSTRB";
   attribute X_INTERFACE_PARAMETER of S_AXI_HP2_WSTRB : signal is "XIL_INTERFACENAME S_AXI_HP2, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 64, PROTOCOL AXI3, FREQ_HZ 100000000, ID_WIDTH 6, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 16, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK3, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARADDR";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARBURST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARBURST";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARCACHE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARCACHE";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARLEN : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARLEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARLOCK : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARLOCK";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARPROT : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARPROT";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARQOS : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARQOS";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_ARSIZE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 ARSIZE";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWADDR : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWADDR";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWBURST : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWBURST";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWCACHE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWCACHE";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWLEN : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWLEN";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWLOCK : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWLOCK";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWPROT : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWPROT";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWQOS : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWQOS";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_AWSIZE : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 AWSIZE";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_BID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 BID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_BRESP : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 BRESP";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RACOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP3_FIFO_CTRL RACOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RCOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP3_FIFO_CTRL RCOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RDATA : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 RDATA";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 RID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_RRESP : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 RRESP";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WACOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP3_FIFO_CTRL WACOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WCOUNT : signal is "xilinx.com:display_processing_system7:hpstatusctrl:1.0 S_AXI_HP3_FIFO_CTRL WCOUNT";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WDATA : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 WDATA";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WID : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 WID";
+  attribute X_INTERFACE_INFO of S_AXI_HP3_WSTRB : signal is "xilinx.com:interface:aximm:1.0 S_AXI_HP3 WSTRB";
+  attribute X_INTERFACE_PARAMETER of S_AXI_HP3_WSTRB : signal is "XIL_INTERFACENAME S_AXI_HP3, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 64, PROTOCOL AXI3, FREQ_HZ 100000000, ID_WIDTH 6, ADDR_WIDTH 32, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, MAX_BURST_LENGTH 8, PHASE 0.000, CLK_DOMAIN base_ps7_0_0_FCLK_CLK0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of USB0_PORT_INDCTL : signal is "xilinx.com:display_processing_system7:usbctrl:1.0 USBIND_0 PORT_INDCTL";
 begin
 inst: entity work.base_ps7_0_0_processing_system7_v5_5_processing_system7
@@ -4310,52 +4464,52 @@ inst: entity work.base_ps7_0_0_processing_system7_v5_5_processing_system7
       S_AXI_HP0_WRISSUECAP1_EN => S_AXI_HP0_WRISSUECAP1_EN,
       S_AXI_HP0_WSTRB(7 downto 0) => S_AXI_HP0_WSTRB(7 downto 0),
       S_AXI_HP0_WVALID => S_AXI_HP0_WVALID,
-      S_AXI_HP1_ACLK => '0',
-      S_AXI_HP1_ARADDR(31 downto 0) => B"00000000000000000000000000000000",
-      S_AXI_HP1_ARBURST(1 downto 0) => B"00",
-      S_AXI_HP1_ARCACHE(3 downto 0) => B"0000",
+      S_AXI_HP1_ACLK => S_AXI_HP1_ACLK,
+      S_AXI_HP1_ARADDR(31 downto 0) => S_AXI_HP1_ARADDR(31 downto 0),
+      S_AXI_HP1_ARBURST(1 downto 0) => S_AXI_HP1_ARBURST(1 downto 0),
+      S_AXI_HP1_ARCACHE(3 downto 0) => S_AXI_HP1_ARCACHE(3 downto 0),
       S_AXI_HP1_ARESETN => NLW_inst_S_AXI_HP1_ARESETN_UNCONNECTED,
-      S_AXI_HP1_ARID(5 downto 0) => B"000000",
-      S_AXI_HP1_ARLEN(3 downto 0) => B"0000",
-      S_AXI_HP1_ARLOCK(1 downto 0) => B"00",
-      S_AXI_HP1_ARPROT(2 downto 0) => B"000",
-      S_AXI_HP1_ARQOS(3 downto 0) => B"0000",
-      S_AXI_HP1_ARREADY => NLW_inst_S_AXI_HP1_ARREADY_UNCONNECTED,
-      S_AXI_HP1_ARSIZE(2 downto 0) => B"000",
-      S_AXI_HP1_ARVALID => '0',
-      S_AXI_HP1_AWADDR(31 downto 0) => B"00000000000000000000000000000000",
-      S_AXI_HP1_AWBURST(1 downto 0) => B"00",
-      S_AXI_HP1_AWCACHE(3 downto 0) => B"0000",
-      S_AXI_HP1_AWID(5 downto 0) => B"000000",
-      S_AXI_HP1_AWLEN(3 downto 0) => B"0000",
-      S_AXI_HP1_AWLOCK(1 downto 0) => B"00",
-      S_AXI_HP1_AWPROT(2 downto 0) => B"000",
-      S_AXI_HP1_AWQOS(3 downto 0) => B"0000",
-      S_AXI_HP1_AWREADY => NLW_inst_S_AXI_HP1_AWREADY_UNCONNECTED,
-      S_AXI_HP1_AWSIZE(2 downto 0) => B"000",
-      S_AXI_HP1_AWVALID => '0',
-      S_AXI_HP1_BID(5 downto 0) => NLW_inst_S_AXI_HP1_BID_UNCONNECTED(5 downto 0),
-      S_AXI_HP1_BREADY => '0',
-      S_AXI_HP1_BRESP(1 downto 0) => NLW_inst_S_AXI_HP1_BRESP_UNCONNECTED(1 downto 0),
-      S_AXI_HP1_BVALID => NLW_inst_S_AXI_HP1_BVALID_UNCONNECTED,
-      S_AXI_HP1_RACOUNT(2 downto 0) => NLW_inst_S_AXI_HP1_RACOUNT_UNCONNECTED(2 downto 0),
-      S_AXI_HP1_RCOUNT(7 downto 0) => NLW_inst_S_AXI_HP1_RCOUNT_UNCONNECTED(7 downto 0),
-      S_AXI_HP1_RDATA(63 downto 0) => NLW_inst_S_AXI_HP1_RDATA_UNCONNECTED(63 downto 0),
-      S_AXI_HP1_RDISSUECAP1_EN => '0',
-      S_AXI_HP1_RID(5 downto 0) => NLW_inst_S_AXI_HP1_RID_UNCONNECTED(5 downto 0),
-      S_AXI_HP1_RLAST => NLW_inst_S_AXI_HP1_RLAST_UNCONNECTED,
-      S_AXI_HP1_RREADY => '0',
-      S_AXI_HP1_RRESP(1 downto 0) => NLW_inst_S_AXI_HP1_RRESP_UNCONNECTED(1 downto 0),
-      S_AXI_HP1_RVALID => NLW_inst_S_AXI_HP1_RVALID_UNCONNECTED,
-      S_AXI_HP1_WACOUNT(5 downto 0) => NLW_inst_S_AXI_HP1_WACOUNT_UNCONNECTED(5 downto 0),
-      S_AXI_HP1_WCOUNT(7 downto 0) => NLW_inst_S_AXI_HP1_WCOUNT_UNCONNECTED(7 downto 0),
-      S_AXI_HP1_WDATA(63 downto 0) => B"0000000000000000000000000000000000000000000000000000000000000000",
-      S_AXI_HP1_WID(5 downto 0) => B"000000",
-      S_AXI_HP1_WLAST => '0',
-      S_AXI_HP1_WREADY => NLW_inst_S_AXI_HP1_WREADY_UNCONNECTED,
-      S_AXI_HP1_WRISSUECAP1_EN => '0',
-      S_AXI_HP1_WSTRB(7 downto 0) => B"00000000",
-      S_AXI_HP1_WVALID => '0',
+      S_AXI_HP1_ARID(5 downto 0) => S_AXI_HP1_ARID(5 downto 0),
+      S_AXI_HP1_ARLEN(3 downto 0) => S_AXI_HP1_ARLEN(3 downto 0),
+      S_AXI_HP1_ARLOCK(1 downto 0) => S_AXI_HP1_ARLOCK(1 downto 0),
+      S_AXI_HP1_ARPROT(2 downto 0) => S_AXI_HP1_ARPROT(2 downto 0),
+      S_AXI_HP1_ARQOS(3 downto 0) => S_AXI_HP1_ARQOS(3 downto 0),
+      S_AXI_HP1_ARREADY => S_AXI_HP1_ARREADY,
+      S_AXI_HP1_ARSIZE(2 downto 0) => S_AXI_HP1_ARSIZE(2 downto 0),
+      S_AXI_HP1_ARVALID => S_AXI_HP1_ARVALID,
+      S_AXI_HP1_AWADDR(31 downto 0) => S_AXI_HP1_AWADDR(31 downto 0),
+      S_AXI_HP1_AWBURST(1 downto 0) => S_AXI_HP1_AWBURST(1 downto 0),
+      S_AXI_HP1_AWCACHE(3 downto 0) => S_AXI_HP1_AWCACHE(3 downto 0),
+      S_AXI_HP1_AWID(5 downto 0) => S_AXI_HP1_AWID(5 downto 0),
+      S_AXI_HP1_AWLEN(3 downto 0) => S_AXI_HP1_AWLEN(3 downto 0),
+      S_AXI_HP1_AWLOCK(1 downto 0) => S_AXI_HP1_AWLOCK(1 downto 0),
+      S_AXI_HP1_AWPROT(2 downto 0) => S_AXI_HP1_AWPROT(2 downto 0),
+      S_AXI_HP1_AWQOS(3 downto 0) => S_AXI_HP1_AWQOS(3 downto 0),
+      S_AXI_HP1_AWREADY => S_AXI_HP1_AWREADY,
+      S_AXI_HP1_AWSIZE(2 downto 0) => S_AXI_HP1_AWSIZE(2 downto 0),
+      S_AXI_HP1_AWVALID => S_AXI_HP1_AWVALID,
+      S_AXI_HP1_BID(5 downto 0) => S_AXI_HP1_BID(5 downto 0),
+      S_AXI_HP1_BREADY => S_AXI_HP1_BREADY,
+      S_AXI_HP1_BRESP(1 downto 0) => S_AXI_HP1_BRESP(1 downto 0),
+      S_AXI_HP1_BVALID => S_AXI_HP1_BVALID,
+      S_AXI_HP1_RACOUNT(2 downto 0) => S_AXI_HP1_RACOUNT(2 downto 0),
+      S_AXI_HP1_RCOUNT(7 downto 0) => S_AXI_HP1_RCOUNT(7 downto 0),
+      S_AXI_HP1_RDATA(63 downto 0) => S_AXI_HP1_RDATA(63 downto 0),
+      S_AXI_HP1_RDISSUECAP1_EN => S_AXI_HP1_RDISSUECAP1_EN,
+      S_AXI_HP1_RID(5 downto 0) => S_AXI_HP1_RID(5 downto 0),
+      S_AXI_HP1_RLAST => S_AXI_HP1_RLAST,
+      S_AXI_HP1_RREADY => S_AXI_HP1_RREADY,
+      S_AXI_HP1_RRESP(1 downto 0) => S_AXI_HP1_RRESP(1 downto 0),
+      S_AXI_HP1_RVALID => S_AXI_HP1_RVALID,
+      S_AXI_HP1_WACOUNT(5 downto 0) => S_AXI_HP1_WACOUNT(5 downto 0),
+      S_AXI_HP1_WCOUNT(7 downto 0) => S_AXI_HP1_WCOUNT(7 downto 0),
+      S_AXI_HP1_WDATA(63 downto 0) => S_AXI_HP1_WDATA(63 downto 0),
+      S_AXI_HP1_WID(5 downto 0) => S_AXI_HP1_WID(5 downto 0),
+      S_AXI_HP1_WLAST => S_AXI_HP1_WLAST,
+      S_AXI_HP1_WREADY => S_AXI_HP1_WREADY,
+      S_AXI_HP1_WRISSUECAP1_EN => S_AXI_HP1_WRISSUECAP1_EN,
+      S_AXI_HP1_WSTRB(7 downto 0) => S_AXI_HP1_WSTRB(7 downto 0),
+      S_AXI_HP1_WVALID => S_AXI_HP1_WVALID,
       S_AXI_HP2_ACLK => S_AXI_HP2_ACLK,
       S_AXI_HP2_ARADDR(31 downto 0) => S_AXI_HP2_ARADDR(31 downto 0),
       S_AXI_HP2_ARBURST(1 downto 0) => S_AXI_HP2_ARBURST(1 downto 0),
@@ -4402,52 +4556,52 @@ inst: entity work.base_ps7_0_0_processing_system7_v5_5_processing_system7
       S_AXI_HP2_WRISSUECAP1_EN => S_AXI_HP2_WRISSUECAP1_EN,
       S_AXI_HP2_WSTRB(7 downto 0) => S_AXI_HP2_WSTRB(7 downto 0),
       S_AXI_HP2_WVALID => S_AXI_HP2_WVALID,
-      S_AXI_HP3_ACLK => '0',
-      S_AXI_HP3_ARADDR(31 downto 0) => B"00000000000000000000000000000000",
-      S_AXI_HP3_ARBURST(1 downto 0) => B"00",
-      S_AXI_HP3_ARCACHE(3 downto 0) => B"0000",
+      S_AXI_HP3_ACLK => S_AXI_HP3_ACLK,
+      S_AXI_HP3_ARADDR(31 downto 0) => S_AXI_HP3_ARADDR(31 downto 0),
+      S_AXI_HP3_ARBURST(1 downto 0) => S_AXI_HP3_ARBURST(1 downto 0),
+      S_AXI_HP3_ARCACHE(3 downto 0) => S_AXI_HP3_ARCACHE(3 downto 0),
       S_AXI_HP3_ARESETN => NLW_inst_S_AXI_HP3_ARESETN_UNCONNECTED,
-      S_AXI_HP3_ARID(5 downto 0) => B"000000",
-      S_AXI_HP3_ARLEN(3 downto 0) => B"0000",
-      S_AXI_HP3_ARLOCK(1 downto 0) => B"00",
-      S_AXI_HP3_ARPROT(2 downto 0) => B"000",
-      S_AXI_HP3_ARQOS(3 downto 0) => B"0000",
-      S_AXI_HP3_ARREADY => NLW_inst_S_AXI_HP3_ARREADY_UNCONNECTED,
-      S_AXI_HP3_ARSIZE(2 downto 0) => B"000",
-      S_AXI_HP3_ARVALID => '0',
-      S_AXI_HP3_AWADDR(31 downto 0) => B"00000000000000000000000000000000",
-      S_AXI_HP3_AWBURST(1 downto 0) => B"00",
-      S_AXI_HP3_AWCACHE(3 downto 0) => B"0000",
-      S_AXI_HP3_AWID(5 downto 0) => B"000000",
-      S_AXI_HP3_AWLEN(3 downto 0) => B"0000",
-      S_AXI_HP3_AWLOCK(1 downto 0) => B"00",
-      S_AXI_HP3_AWPROT(2 downto 0) => B"000",
-      S_AXI_HP3_AWQOS(3 downto 0) => B"0000",
-      S_AXI_HP3_AWREADY => NLW_inst_S_AXI_HP3_AWREADY_UNCONNECTED,
-      S_AXI_HP3_AWSIZE(2 downto 0) => B"000",
-      S_AXI_HP3_AWVALID => '0',
-      S_AXI_HP3_BID(5 downto 0) => NLW_inst_S_AXI_HP3_BID_UNCONNECTED(5 downto 0),
-      S_AXI_HP3_BREADY => '0',
-      S_AXI_HP3_BRESP(1 downto 0) => NLW_inst_S_AXI_HP3_BRESP_UNCONNECTED(1 downto 0),
-      S_AXI_HP3_BVALID => NLW_inst_S_AXI_HP3_BVALID_UNCONNECTED,
-      S_AXI_HP3_RACOUNT(2 downto 0) => NLW_inst_S_AXI_HP3_RACOUNT_UNCONNECTED(2 downto 0),
-      S_AXI_HP3_RCOUNT(7 downto 0) => NLW_inst_S_AXI_HP3_RCOUNT_UNCONNECTED(7 downto 0),
-      S_AXI_HP3_RDATA(63 downto 0) => NLW_inst_S_AXI_HP3_RDATA_UNCONNECTED(63 downto 0),
-      S_AXI_HP3_RDISSUECAP1_EN => '0',
-      S_AXI_HP3_RID(5 downto 0) => NLW_inst_S_AXI_HP3_RID_UNCONNECTED(5 downto 0),
-      S_AXI_HP3_RLAST => NLW_inst_S_AXI_HP3_RLAST_UNCONNECTED,
-      S_AXI_HP3_RREADY => '0',
-      S_AXI_HP3_RRESP(1 downto 0) => NLW_inst_S_AXI_HP3_RRESP_UNCONNECTED(1 downto 0),
-      S_AXI_HP3_RVALID => NLW_inst_S_AXI_HP3_RVALID_UNCONNECTED,
-      S_AXI_HP3_WACOUNT(5 downto 0) => NLW_inst_S_AXI_HP3_WACOUNT_UNCONNECTED(5 downto 0),
-      S_AXI_HP3_WCOUNT(7 downto 0) => NLW_inst_S_AXI_HP3_WCOUNT_UNCONNECTED(7 downto 0),
-      S_AXI_HP3_WDATA(63 downto 0) => B"0000000000000000000000000000000000000000000000000000000000000000",
-      S_AXI_HP3_WID(5 downto 0) => B"000000",
-      S_AXI_HP3_WLAST => '0',
-      S_AXI_HP3_WREADY => NLW_inst_S_AXI_HP3_WREADY_UNCONNECTED,
-      S_AXI_HP3_WRISSUECAP1_EN => '0',
-      S_AXI_HP3_WSTRB(7 downto 0) => B"00000000",
-      S_AXI_HP3_WVALID => '0',
+      S_AXI_HP3_ARID(5 downto 0) => S_AXI_HP3_ARID(5 downto 0),
+      S_AXI_HP3_ARLEN(3 downto 0) => S_AXI_HP3_ARLEN(3 downto 0),
+      S_AXI_HP3_ARLOCK(1 downto 0) => S_AXI_HP3_ARLOCK(1 downto 0),
+      S_AXI_HP3_ARPROT(2 downto 0) => S_AXI_HP3_ARPROT(2 downto 0),
+      S_AXI_HP3_ARQOS(3 downto 0) => S_AXI_HP3_ARQOS(3 downto 0),
+      S_AXI_HP3_ARREADY => S_AXI_HP3_ARREADY,
+      S_AXI_HP3_ARSIZE(2 downto 0) => S_AXI_HP3_ARSIZE(2 downto 0),
+      S_AXI_HP3_ARVALID => S_AXI_HP3_ARVALID,
+      S_AXI_HP3_AWADDR(31 downto 0) => S_AXI_HP3_AWADDR(31 downto 0),
+      S_AXI_HP3_AWBURST(1 downto 0) => S_AXI_HP3_AWBURST(1 downto 0),
+      S_AXI_HP3_AWCACHE(3 downto 0) => S_AXI_HP3_AWCACHE(3 downto 0),
+      S_AXI_HP3_AWID(5 downto 0) => S_AXI_HP3_AWID(5 downto 0),
+      S_AXI_HP3_AWLEN(3 downto 0) => S_AXI_HP3_AWLEN(3 downto 0),
+      S_AXI_HP3_AWLOCK(1 downto 0) => S_AXI_HP3_AWLOCK(1 downto 0),
+      S_AXI_HP3_AWPROT(2 downto 0) => S_AXI_HP3_AWPROT(2 downto 0),
+      S_AXI_HP3_AWQOS(3 downto 0) => S_AXI_HP3_AWQOS(3 downto 0),
+      S_AXI_HP3_AWREADY => S_AXI_HP3_AWREADY,
+      S_AXI_HP3_AWSIZE(2 downto 0) => S_AXI_HP3_AWSIZE(2 downto 0),
+      S_AXI_HP3_AWVALID => S_AXI_HP3_AWVALID,
+      S_AXI_HP3_BID(5 downto 0) => S_AXI_HP3_BID(5 downto 0),
+      S_AXI_HP3_BREADY => S_AXI_HP3_BREADY,
+      S_AXI_HP3_BRESP(1 downto 0) => S_AXI_HP3_BRESP(1 downto 0),
+      S_AXI_HP3_BVALID => S_AXI_HP3_BVALID,
+      S_AXI_HP3_RACOUNT(2 downto 0) => S_AXI_HP3_RACOUNT(2 downto 0),
+      S_AXI_HP3_RCOUNT(7 downto 0) => S_AXI_HP3_RCOUNT(7 downto 0),
+      S_AXI_HP3_RDATA(63 downto 0) => S_AXI_HP3_RDATA(63 downto 0),
+      S_AXI_HP3_RDISSUECAP1_EN => S_AXI_HP3_RDISSUECAP1_EN,
+      S_AXI_HP3_RID(5 downto 0) => S_AXI_HP3_RID(5 downto 0),
+      S_AXI_HP3_RLAST => S_AXI_HP3_RLAST,
+      S_AXI_HP3_RREADY => S_AXI_HP3_RREADY,
+      S_AXI_HP3_RRESP(1 downto 0) => S_AXI_HP3_RRESP(1 downto 0),
+      S_AXI_HP3_RVALID => S_AXI_HP3_RVALID,
+      S_AXI_HP3_WACOUNT(5 downto 0) => S_AXI_HP3_WACOUNT(5 downto 0),
+      S_AXI_HP3_WCOUNT(7 downto 0) => S_AXI_HP3_WCOUNT(7 downto 0),
+      S_AXI_HP3_WDATA(63 downto 0) => S_AXI_HP3_WDATA(63 downto 0),
+      S_AXI_HP3_WID(5 downto 0) => S_AXI_HP3_WID(5 downto 0),
+      S_AXI_HP3_WLAST => S_AXI_HP3_WLAST,
+      S_AXI_HP3_WREADY => S_AXI_HP3_WREADY,
+      S_AXI_HP3_WRISSUECAP1_EN => S_AXI_HP3_WRISSUECAP1_EN,
+      S_AXI_HP3_WSTRB(7 downto 0) => S_AXI_HP3_WSTRB(7 downto 0),
+      S_AXI_HP3_WVALID => S_AXI_HP3_WVALID,
       TRACE_CLK => '0',
       TRACE_CLK_OUT => NLW_inst_TRACE_CLK_OUT_UNCONNECTED,
       TRACE_CTL => NLW_inst_TRACE_CTL_UNCONNECTED,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="base_timer_7_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1620935725">
+<GenRun Id="base_timer_7_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1621311720">
   <File Type="PA-TCL" Name="base_timer_7.tcl"/>
   <File Type="REPORTS-TCL" Name="base_timer_7_reports.tcl"/>
   <File Type="RDS-RDS" Name="base_timer_7.vds"/>

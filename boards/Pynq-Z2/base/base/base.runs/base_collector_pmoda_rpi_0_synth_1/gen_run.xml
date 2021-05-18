@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="base_collector_pmoda_rpi_0_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1620935684">
+<GenRun Id="base_collector_pmoda_rpi_0_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1621311710">
   <File Type="PA-TCL" Name="base_collector_pmoda_rpi_0.tcl"/>
   <File Type="REPORTS-TCL" Name="base_collector_pmoda_rpi_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="base_collector_pmoda_rpi_0.vds"/>

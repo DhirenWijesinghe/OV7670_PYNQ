@@ -104,9 +104,9 @@ base_ps7_0_0_sc::base_ps7_0_0_sc(const sc_core::sc_module_name& nm) : sc_core::s
     model_param_props.addLong("C_USE_S_AXI_GP0", "1");
     model_param_props.addLong("C_USE_S_AXI_GP1", "0");
     model_param_props.addLong("C_USE_S_AXI_HP0", "1");
-    model_param_props.addLong("C_USE_S_AXI_HP1", "0");
+    model_param_props.addLong("C_USE_S_AXI_HP1", "1");
     model_param_props.addLong("C_USE_S_AXI_HP2", "1");
-    model_param_props.addLong("C_USE_S_AXI_HP3", "0");
+    model_param_props.addLong("C_USE_S_AXI_HP3", "1");
     model_param_props.addLong("C_USE_S_AXI_ACP", "0");
     model_param_props.addLong("C_GP0_EN_MODIFIABLE_TXN", "1");
     model_param_props.addLong("C_GP1_EN_MODIFIABLE_TXN", "1");
@@ -129,8 +129,12 @@ base_ps7_0_0_sc::base_ps7_0_0_sc(const sc_core::sc_module_name& nm) : sc_core::s
   S_AXI_GP0_wr_socket = mp_impl->S_AXI_GP0_wr_socket;
   S_AXI_HP0_rd_socket = mp_impl->S_AXI_HP0_rd_socket;
   S_AXI_HP0_wr_socket = mp_impl->S_AXI_HP0_wr_socket;
+  S_AXI_HP1_rd_socket = mp_impl->S_AXI_HP1_rd_socket;
+  S_AXI_HP1_wr_socket = mp_impl->S_AXI_HP1_wr_socket;
   S_AXI_HP2_rd_socket = mp_impl->S_AXI_HP2_rd_socket;
   S_AXI_HP2_wr_socket = mp_impl->S_AXI_HP2_wr_socket;
+  S_AXI_HP3_rd_socket = mp_impl->S_AXI_HP3_rd_socket;
+  S_AXI_HP3_wr_socket = mp_impl->S_AXI_HP3_wr_socket;
 }
 
 base_ps7_0_0_sc::~base_ps7_0_0_sc()
